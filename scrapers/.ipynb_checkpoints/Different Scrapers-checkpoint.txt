@@ -1,0 +1,11 @@
+
+FBref:
+    Season-level player stats: goals, assists, passes, defense, minutes, appearances	
+
+Transfermarkt:
+    Transfer history, market values, contract details	
+    Essential for financial/transfer price analysis
+
+Understat:
+    Expected Goals (xG), Expected Assists (xA), shot data, provides clean offensive data
+
