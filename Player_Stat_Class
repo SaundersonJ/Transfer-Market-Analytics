@@ -1,3 +1,10 @@
+# not yet functional
+# requires further research on format of data when pulled from scrapers
+# will include more feature getters as needed
+# must have file with data already scraped onto to act on
+# currently expecting json file, but will consider csv, or other formats depending on what is most convenient
+
+
 class PlayerStats:
     def __init__(self, stats_dict):
         self.stats = stats_dict
