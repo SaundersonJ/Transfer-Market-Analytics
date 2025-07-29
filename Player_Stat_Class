@@ -5,6 +5,8 @@
 # currently expecting json file, but will consider csv, or other formats depending on what is most convenient
 
 
+#Class to interface with a single players data returned from PlayerDatabase
+
 class PlayerStats:
     def __init__(self, stats_dict):
         self.stats = stats_dict
@@ -34,6 +36,9 @@ class PlayerStats:
         return (
             #insert price prediction method using getters above
         )
+
+
+#class to pull data into the program from file, and return PlayerStats object given a player name
 
 class PlayerDatabase:
     def __init__(self, json_path):
