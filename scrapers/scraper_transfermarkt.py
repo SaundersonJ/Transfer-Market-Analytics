@@ -1,158 +1,95 @@
+import os
+import pandas as pd
+from ScraperFC.transfermarkt import Transfermarkt
+from tqdm import tqdm
 
-import os                                    # For file/directory operations
-import pandas as pd                          # For data manipulation and CSV handling
-from ScraperFC.transfermarkt import Transfermarkt  # Third-party library for scraping Transfermarkt data
+class TransfermarktDataScraper:
+    """
+    A class to scrape player data from Transfermarkt using the ScraperFC library.
+    """
 
-# List of all supported football leagues that can be scraped
-VALID_LEAGUES = [
-    'EPL', 'EFL Championship', 'EFL1', 'EFL2',           # English leagues
-    'Bundesliga', '2.Bundesliga',                        # German leagues
-    'Serie A', 'Serie B',                                # Italian leagues
-    'La Liga', 'La Liga 2',                              # Spanish leagues
-    'Ligue 1', 'Ligue 2',                                # French leagues
-    'Eredivisie', 'Scottish PL',                         # Dutch and Scottish leagues
-    'Super Lig', 'Turkish Super Lig',                    # Turkish leagues
-    'Jupiler Pro League', 'Liga Nos',                    # Belgian and Portuguese leagues
-    'Russian Premier League',                            # Russian league
-    'Brasileirao', 'Argentina Liga Profesional',         # South American leagues
-    'MLS',                                               # American league
-    'Primavera 1', 'Primavera 2 - A', 'Primavera 2 - B', # Italian youth leagues
-    'Campionato U18'                                     # Youth league
-]
+    # supported leagues by this scraper.
+    VALID_LEAGUES = [
+        'EPL', 'EFL Championship', 'EFL1', 'EFL2', 'Bundesliga', '2.Bundesliga',
+        'Serie A', 'Serie B', 'La Liga', 'La Liga 2', 'Ligue 1', 'Ligue 2',
+        'Eredivisie', 'Scottish PL', 'Super Lig', 'Turkish Super Lig',
+        'Jupiler Pro League', 'Liga Nos', 'Russian Premier League',
+        'Brasileirao', 'Argentina Liga Profesional', 'MLS',
+        'Primavera 1', 'Primavera 2 - A', 'Primavera 2 - B', 'Campionato U18'
+    ]
 
-def get_user_input():
-    """
-    Function to get league and season input from the user.
-    
-    This function:
-    1. Displays all valid leagues to the user
-    2. Asks user to select a league
-    3. Validates the league selection
-    4. Shows available seasons for the selected league
-    5. Asks user to select a season
-    6. Validates the season selection
-    
-    """
-    
-    # Display all available leagues to help user make correct choice
-    print(" Valid Transfermarkt Leagues:")
-    for lg in VALID_LEAGUES:
-        print(f"- {lg}")
-    
-    # Get league input from user and remove any extra spaces
-    league = input("\nEnter a league exactly as listed above (ex: EPL): ").strip()
-    
-    # Check if the entered league is valid, raise error if not
-    if league not in VALID_LEAGUES:
-        raise ValueError(f" '{league}' is not a valid league.")
-    
-    # Create Transfermarkt scraper object to get available seasons
-    tm = Transfermarkt()
-    valid_seasons = tm.get_valid_seasons(league)  # Get all available seasons for this league
-    
-    # Display available seasons for the selected league
-    print("\n Valid Seasons for", league)
-    for season_str in valid_seasons:
-        print(f"- {season_str}")
-    
-    # Get season input from user
-    year = input("Enter a valid season from above (ex: 22/23): ").strip()
-    
-    # Validate the season selection
-    if year not in valid_seasons:
-        raise ValueError(f" {year} is not a valid season for {league}.")
-    
-    # Return both league and year for use in main function
-    return league, year
+    def __init__(self, max_players=None):
+        """
+        Function to initialize the TransfermarktDataScraper.
 
-def save_to_csv(df, filename, output_dir="data/transfermarkt"):
-    """
-    Function to save a pandas DataFrame to a CSV file.
-    
-    This function:
-    1. Creates the output directory if it doesn't exist
-    2. Saves the DataFrame as a CSV file
-    3. Prints confirmation message
-    """
-    
-    # Get the directory path from the filename
-    output_dir = os.path.dirname(filename)
-    
-    # Create directory if it doesn't exist
-    if output_dir and not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    
-    # Save DataFrame to CSV without including row indices
-    df.to_csv(filename, index=False)
-    
-    print(f"Data saved to {filename}")
+        Parameters:
+        - max_players (int or None): limit on the number of players to scrape.
+        """
+        self.max_players = max_players  # How many players to scrape (None = all)
+        self.league = None              # League to scrape (e.g., 'EPL')
+        self.season = None              # Season to scrape (e.g., '22/23')
+        self.scraper = None             # Instance of the Transfermarkt scraper
 
-def scrape_players_safe(tm, year, league):
-    """
-    Function to safely scrape player data from Transfermarkt.
-    
-    This function:
-    1. Gets links to all player pages for the specified league/season
-    2. Limits to first 12 players (for demo)
-    3. Attempts to scrape each player's data
-    4. Handles errors (continues if one player fails)
-    5. Combines all successful results into one DataFrame
-    """
-    
-    # progress bar library for visual feedback
-    from tqdm import tqdm
-    
-    # Get links to all player pages, but limit to first 12 for  demo
-    player_links = tm.get_player_links(year, league)[:12]
-    
-    # List to store DataFrames from each successfully scraped player
-    all_players = []
-    
-    # Loop through each player link with a progress bar
-    for link in tqdm(player_links):
+    def initialize_scraper(self):
+        """
+        Function to create an instance of the Transfermarkt scraper from ScraperFC.
+        """
+        if not self.scraper:
+            self.scraper = Transfermarkt()
+
+    def get_player_links(self):
+        """
+        Function to fetch player profile URLs for the given league and season.
+        Returns:
+        - A list of player profile links (limited by max_players if set).
+        """
+        if not self.scraper or not self.league or not self.season:
+            raise ValueError("Initialize scraper and set league/season first")
+
+        # returning the list of player URLs from Transfermarkt
+        return self.scraper.get_player_links(self.season, self.league)[:self.max_players]
+
+    def scrape_single_player(self, player_link):
+        """
+        Function to scrape a single player's data.
+        Returns:
+        - A pandas DataFrame with player data, or None if scraping failed.
+        """
         try:
-            # scrape individual player data
-            df = tm.scrape_player(link)
-            all_players.append(df)  # Add successful result to our list
+            return self.scraper.scrape_player(player_link)
         except Exception:
-            # If scraping fails for player, skip and continue
-            pass
-    
-    # Combine all individual player DataFrames into one large DataFrame
-    if all_players:
-        return pd.concat(all_players, ignore_index=True)
-    else:
-        # Return empty DataFrame if no players were successfully scraped
-        return pd.DataFrame()
+            # Exception so that we may skip any players that fail to scrape
+            return None  
 
-def main():
-    """
-    Main function:
-    1. Gets user input for league and season
-    2. Creates Transfermarkt scraper object
-    3. Scrapes player data
-    4. Saves results to CSV file
-    """
-    
-    # Get league and season from user
-    league, year = get_user_input()
-    
-    print(f"\n Scraping Transfermarkt data for {league} ({year})...")
-    
-    # Create Transfermarkt scraper object
-    tm = Transfermarkt()
-    
-    # Scrape player data 
-    df_players = scrape_players_safe(tm, year, league)
-    
-    # Show how many players were successfully scraped
-    print(f"Retrieved {len(df_players)} players.")
-    
-    # Create filename by replacing dashes with underscores and adding file extension
-    filename = f"{league.replace('-', '_')}_players_{year}.csv"
-    
-    # Save the scraped data to CSV file
-    save_to_csv(df_players, filename)
+    def scrape_players(self):
+        """
+        Function to scrape all players from the selected league and season.
+        Returns:
+        - A combined pandas DataFrame with all player data, or an empty DataFrame if none were scraped.
+        """
+        self.initialize_scraper()  # Ensure scraper is ready
 
-if __name__ == "__main__":
-    main()
+        # Getting all the player URLs
+        player_links = self.get_player_links()
+
+        # List of all player data frames
+        all_players = []  
+
+        # Loop through each player link and scrape the data
+        for link in tqdm(player_links, desc="Transfermarkt scraping"):
+            player_data = self.scrape_single_player(link)
+            if player_data is not None:
+                all_players.append(player_data)
+
+        # Combining all player DataFrames into one
+        if all_players:
+            return pd.concat(all_players, ignore_index=True)
+
+        # empty DataFrame returned if nothing scraped
+        return pd.DataFrame() 
+
+    def scrape_and_save_players(self):
+        """
+        Function to scrape all players and return the DataFrame.
+        """
+        return self.scrape_players()
