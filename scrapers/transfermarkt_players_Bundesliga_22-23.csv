@@ -1,0 +1,21 @@
+Name,ID,Value,Value last updated,DOB,Age,Height (m),Nationality,Citizenship,Position,Other positions,Team,Last club,Since,Joined,Contract expiration,Market value history,Transfer history,source
+Emil Forsberg,111078,€3.00m,"Jun 5, 2025","Oct 23, 1991",33,1.77,Sweden,[],Left Winger,,New York,,,"Jan 31, 2024","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Janis Blaswich,81173,€700k,"Jun 6, 2025","May 2, 1991",34,1.93,Germany,[],Goalkeeper,,RB Leipzig,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tom Bischof,822959,€30.00m,"Jun 5, 2025","Jun 28, 2005",20,1.76,Germany,[],Central Midfield,,Bayern Munich,,,"Jun 9, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Gabriel Marusic,604322,€125k,"Jun 24, 2025","Mar 3, 2003",22,1.86,Croatia,[],Centre-Back,,A. Salzburg,,,"Jul 29, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ihlas Bebou,237164,€1.00m,"Jun 5, 2025","Apr 23, 1994",31,1.85,Togo,"['Germany', 'Togo']",Centre-Forward,"              0
+0  Right Winger
+1   Left Winger",TSG Hoffenheim,,,"Jul 1, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Callum Hudson-Odoi,392768,€25.00m,"May 30, 2025","Nov 7, 2000",24,1.78,England,[],Left Winger,,Forest,,,"Sep 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
