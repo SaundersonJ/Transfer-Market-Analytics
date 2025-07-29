@@ -1,0 +1,40 @@
+class PlayerStats:
+    def __init__(self, stats_dict):
+        self.stats = stats_dict
+
+    def get_xG(self):
+        return self.stats.get("xG", 0)
+
+    def get_G(self):
+        return self.stats.get("G", 0)
+
+    def get_xA(self):
+        return self.stats.get("xA", 0)
+
+    def get_A(self):
+        return self.stats.get("A", 0)
+
+    def get_minutes(self):
+        return self.stats.get("minutes", 0)
+
+    def get_SOT(self):
+        return self.stats.get("SOT", 0)
+
+    #more member functions to be defined...
+
+    def predict_price(self):
+        # Example formula (adjust weights as needed)
+        return (
+            #insert price prediction method using getters above
+        )
+
+class PlayerDatabase:
+    def __init__(self, json_path):
+        with open(json_path) as f:
+            self.players = json.load(f)
+
+    def get_player(self, name):
+        if name in self.players:
+            return PlayerStats(self.players[name])
+        raise ValueError(f"Player '{name}' not found.")
+
