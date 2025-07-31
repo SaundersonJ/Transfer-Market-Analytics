@@ -26,8 +26,8 @@ class TransfermarktDataScraper:
         - max_players (int or None): limit on the number of players to scrape.
         """
         self.max_players = max_players  # How many players to scrape (None = all)
-        self.league = None              # League to scrape (e.g., 'EPL')
-        self.season = None              # Season to scrape (e.g., '22/23')
+        self.league = None              # League to scrape ('EPL')
+        self.season = None              # Season to scrape ('22/23')
         self.scraper = None             # Instance of the Transfermarkt scraper
 
     def initialize_scraper(self):
@@ -67,8 +67,7 @@ class TransfermarktDataScraper:
         Returns:
         - A combined pandas DataFrame with all player data, or an empty DataFrame if none were scraped.
         """
-        self.initialize_scraper()  # Ensure scraper is ready
-
+        self.initialize_scraper()  
         # Getting all the player URLs
         player_links = self.get_player_links()
 
