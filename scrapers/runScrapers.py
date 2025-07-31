@@ -8,7 +8,7 @@ class RunScrapers:
     league and season and saves the results as CSV files.
     """
 
-    def __init__(self, max_players=10, output_dir="data"):
+    def __init__(self, max_players=100, output_dir="data"):
         """
         Function to initialize the RunScrapers class with settings for output directory
         and number of players to scrape for Transfermarkt.
