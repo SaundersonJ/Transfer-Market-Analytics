@@ -16,7 +16,7 @@ def ConvertPrice(dataframe, outfile):
         price = price.strip('€')
         if price[-1] == 'm':
             price = price.strip('m').split('.')
-            price = price[0] + "000000"
+            price = price[0] + price[1] + "0000"
         elif price[-1] == 'k':
             price = price.strip('k')
             price += "000"
