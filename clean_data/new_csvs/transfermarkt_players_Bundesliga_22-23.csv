@@ -1,0 +1,1354 @@
+Name,ID,Value,Value last updated,DOB,Age,Height (m),Nationality,Citizenship,Position,Other positions,Team,Last club,Since,Joined,Contract expiration,Market value history,Transfer history,source
+Evan Ndicka,371149,€30.00m,"Jun 17, 2025","Aug 20, 1999",25,1.92,Cote d'Ivoire,[],Centre-Back,,AS Roma,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Florian Neuhaus,278332,€3.50m,"Jun 5, 2025","Mar 16, 1997",28,1.85,Germany,[],Central Midfield,,Bor. M'gladbach,,,"Jul 1, 2017","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Florian Dimmer,912447,€50k,"Jun 23, 2025","Jan 15, 2005",20,1.9,Germany,[],Goalkeeper,,M'gladbach II,,,"Jul 1, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Leon Goretzka,153084,€22.00m,"Jun 5, 2025","Feb 6, 1995",30,1.89,Germany,[],Central Midfield,,Bayern Munich,,,"Jul 1, 2018","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ludovic Ajorque,283994,€4.00m,"Jun 3, 2025","Feb 25, 1994",31,1.96,France,[],Centre-Forward,,Stade Brestois,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Götze,330635,€2.00m,"Jun 19, 2025","Feb 11, 1998",27,1.85,Germany,[],Centre-Back,,SC Paderborn,,,"Jul 1, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Justin Che,796429,€700k,"Apr 24, 2025","Nov 18, 2003",21,1.85,United States,[],Right-Back,,Bröndby IF,,,"Jul 14, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Johannes Schenk,604326,€1.80m,"Jun 19, 2025","Jan 13, 2003",22,1.91,Germany,[],Goalkeeper,,Pr. Münster,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ramy Bensebaini,284732,€7.00m,"Jun 5, 2025","Apr 16, 1995",30,1.87,Algeria,['Algeria'],Left-Back,"             0
+0  Centre-Back",Bor. Dortmund,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daniel Caligiuri,38410,,,"Jan 15, 1988",37,1.82,Italy,[],Right Winger,,Retired,FC 08 Villingen,"Feb 2, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lukas Nmecha,314288,€3.00m,"Jun 5, 2025","Dec 14, 1998",26,1.85,Germany,[],Centre-Forward,,Leeds,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tobias Sippel,31653,€300k,"Jun 5, 2025","Mar 22, 1988",37,1.83,Germany,['Germany'],Goalkeeper,,Bor. M'gladbach,,,"Jul 1, 2015","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Kampl,53418,€2.50m,"Jun 5, 2025","Oct 9, 1990",34,1.78,Slovenia,[],Central Midfield,,RB Leipzig,,,"Aug 31, 2017","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Salih Özcan,244940,€4.00m,"Jun 5, 2025","Jan 11, 1998",27,1.83,Türkiye,[],Defensive Midfield,,Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kristijan Jakic,374954,€6.50m,"Jun 5, 2025","May 14, 1997",28,1.84,Croatia,[],Defensive Midfield,,FC Augsburg,,,"Jul 1, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Rafael Borré,323831,€7.00m,"Jun 6, 2025","Sep 15, 1995",29,1.74,Colombia,[],Centre-Forward,,Internacional,,,"Mar 5, 2024","Dec 31, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Brandt,187492,€25.00m,"Jun 5, 2025","May 2, 1996",29,1.85,Germany,[],Attacking Midfield,,Bor. Dortmund,,,"Jul 1, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tobias Sippel,31653,€300k,"Jun 5, 2025","Mar 22, 1988",37,1.83,Germany,[],Goalkeeper,,Bor. M'gladbach,,,"Jul 1, 2015","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daley Sinkgraven,215099,€600k,"May 28, 2025","Jul 4, 1995",30,1.79,Netherlands,[],Left-Back,,Fortuna Sittard,,,"Feb 3, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robin Zentner,160963,€4.00m,"Jun 5, 2025","Oct 28, 1994",30,1.95,Germany,[],Goalkeeper,,1.FSV Mainz 05,,,"Jul 1, 2014","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Götze,330635,€2.00m,"Jun 19, 2025","Feb 11, 1998",27,1.85,Germany,['Germany'],Centre-Back,"                    0
+0  Defensive Midfield
+1    Central Midfield",SC Paderborn,,,"Jul 1, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nacho Ferri,867357,€2.20m,"Jun 12, 2025","Oct 5, 2004",20,1.92,Spain,[],Centre-Forward,,KVC Westerlo,,,"Jul 8, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Hofmann,7161,€2.00m,"Jun 5, 2025","Jul 14, 1992",33,1.76,Germany,['Germany'],Attacking Midfield,"              0
+0  Right Winger",B. Leverkusen,,,"Jul 5, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joe Scally,504153,€10.00m,"Jun 5, 2025","Dec 31, 2002",22,1.84,United States,[],Right-Back,,Bor. M'gladbach,,,"Jan 1, 2021","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Thomas Delaney,91849,€1.20m,"Jun 16, 2025","Sep 3, 1991",33,1.82,Denmark,[],Central Midfield,,FC Copenhagen,,,"Jul 20, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dominik Kohr,118847,€3.50m,"Jun 5, 2025","Jan 31, 1994",31,1.83,Germany,[],Centre-Back,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Tauer,470815,€500k,"Jun 19, 2025","Feb 17, 2001",24,1.83,Germany,[],Defensive Midfield,,1.FSV Mainz 05,,,"Sep 27, 2019",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maurice Malone,405568,€2.20m,"Jun 6, 2025","Aug 17, 2000",24,1.87,Germany,[],Centre-Forward,,Austria Vienna,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lucas Laux,584062,€75k,"Jun 11, 2025","Oct 14, 2002",22,1.83,Germany,['Germany'],Centre-Back,"                    0
+0  Defensive Midfield",Eintracht Trier,,,"Jul 10, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sebastiaan Bornauw,338629,€6.00m,"Jun 5, 2025","Mar 22, 1999",26,1.91,Belgium,[],Centre-Back,,Leeds,,,"Jul 1, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Paul Wanner,900909,€18.00m,"Jun 5, 2025","Dec 23, 2005",19,1.85,Germany,[],Attacking Midfield,,Bayern Munich,,,"Jan 31, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mert Kömür,777005,€5.00m,"Jun 5, 2025","Jul 17, 2005",20,1.83,Germany,"['Germany', 'Türkiye']",Attacking Midfield,"                  0
+0  Central Midfield",FC Augsburg,,,"Jul 1, 2023","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Adam Hlozek,552057,€18.00m,"Jun 5, 2025","Jul 25, 2002",23,1.88,Czech Republic,[],Second Striker,,TSG Hoffenheim,,,"Aug 17, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Munas Dabbur,145866,€1.30m,"May 29, 2025","May 14, 1992",33,1.82,Israel,[],Centre-Forward,,Shabab Al-Ahli,,,"Jul 12, 2023",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcel Wenig,654872,€300k,"Jun 11, 2025","May 4, 2004",21,1.88,Germany,[],Attacking Midfield,,SSV Ulm 1846,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Arne Engels,565435,€12.00m,"Jun 17, 2025","Sep 8, 2003",21,1.85,Belgium,[],Central Midfield,,Celtic,,,"Aug 30, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Delano Burgzorg,436585,€3.00m,"May 27, 2025","Nov 7, 1998",26,1.86,Suriname,[],Left Winger,,Middlesbrough,,,"Jul 1, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aaron Zehnter,730484,€6.00m,"Jun 19, 2025","Oct 31, 2004",20,1.8,Germany,[],Left Midfield,,VfL Wolfsburg,,,"Jul 1, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mehdi Loune,519869,€150k,"Jun 11, 2025","May 14, 2004",21,1.72,Germany,[],Central Midfield,,Without Club,E. Frankfurt II,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Elvis Rexhbecaj,280575,€3.50m,"Jun 5, 2025","Nov 1, 1997",27,1.82,Kosovo,[],Central Midfield,,FC Augsburg,,,"Jul 27, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Patrick Pentz,223972,€2.50m,"Jun 16, 2025","Jan 2, 1997",28,1.83,Austria,[],Goalkeeper,,Bröndby IF,,,"Jul 1, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Thomas Meunier,100986,€2.00m,"Jun 3, 2025","Sep 12, 1991",33,1.91,Belgium,[],Right-Back,,LOSC Lille,,,"Jul 19, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christopher Nkunku,344381,€35.00m,"May 30, 2025","Nov 14, 1997",27,1.77,France,[],Centre-Forward,,Chelsea,,,"Jul 1, 2023","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kilian Fischer,435796,€6.00m,"Jun 5, 2025","Oct 12, 2000",24,1.82,Germany,[],Right-Back,,VfL Wolfsburg,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Finn Dahmen,251299,€9.00m,"Jun 5, 2025","Mar 27, 1998",27,1.86,Germany,[],Goalkeeper,,FC Augsburg,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jens Petter Hauge,422355,€4.00m,"Jun 18, 2025","Oct 12, 1999",25,1.84,Norway,[],Left Winger,,Bodø/Glimt,,,"Jan 30, 2025","Dec 31, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Karim Bellarabi,61087,,,"Apr 8, 1990",35,1.84,Germany,[],Right Winger,,Retired,B. Leverkusen,"Jul 1, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jeffrey Gouweleeuw,106405,€1.50m,"Jun 5, 2025","Jul 10, 1991",34,1.88,Netherlands,[],Centre-Back,,FC Augsburg,,,"Jan 9, 2016","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marco Pašalić,395928,€5.00m,"Jun 5, 2025","Sep 14, 2000",24,1.77,Croatia,[],Right Winger,,Orlando,,,"Feb 5, 2025","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Zidan Sertdemir,788445,€2.00m,"Jun 16, 2025","Feb 4, 2005",20,1.86,Denmark,[],Central Midfield,,Nordsjaelland,,,"Jan 31, 2023","Dec 31, 2025",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Noah Mbamba,743395,€1.50m,"Jun 12, 2025","Jan 5, 2005",20,1.96,Belgium,[],Central Midfield,,FCV Dender EH,,,"Feb 3, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dominik Szoboszlai,451276,€80.00m,"May 30, 2025","Oct 25, 2000",24,1.87,Hungary,[],Attacking Midfield,,Liverpool,,,"Jul 2, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maximilian Brüll,596103,€75k,"Jun 23, 2025","Aug 26, 2002",22,1.87,Germany,[],Goalkeeper,,M'gladbach II,,,"Jul 1, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Andreas Hanche-Olsen,370683,€6.00m,"Jun 5, 2025","Jan 17, 1997",28,1.85,Norway,[],Centre-Back,,1.FSV Mainz 05,,,"Jan 13, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nico Schlotterbeck,388198,€40.00m,"Jun 5, 2025","Dec 1, 1999",25,1.91,Germany,['Germany'],Centre-Back,"           0
+0  Left-Back",Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Oscar Fraulo,610428,€3.50m,"May 28, 2025","Dec 6, 2003",21,1.8,Denmark,[],Central Midfield,,Bor. M'gladbach,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Bartol Franjic,370998,€1.50m,"Jun 9, 2025","Jan 14, 2000",25,1.88,Croatia,[],Left-Back,,Venezia,,,"Jul 10, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Philipp Schulze,574203,€350k,"Jun 11, 2025","Jan 29, 2003",22,1.9,Germany,[],Goalkeeper,,SC Verl,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Leandro Barreiro,357233,€15.00m,"May 30, 2025","Jan 3, 2000",25,1.74,Luxembourg,[],Central Midfield,,Benfica,,,"Jul 2, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Anton Stach,344069,€14.00m,"Jun 5, 2025","Nov 15, 1998",26,1.94,Germany,[],Defensive Midfield,,Leeds,,,"Jul 22, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tuta,546213,€15.00m,"Jun 5, 2025","Jul 4, 1999",26,1.85,Brazil,['Brazil'],Centre-Back,"                    0
+0          Right-Back
+1  Defensive Midfield",E. Frankfurt,,,"Jan 31, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Timothy Chandler,49723,€350k,"Jun 5, 2025","Mar 29, 1990",35,1.87,United States,"['Germany', 'United States']",Right-Back,"                0
+0  Right Midfield
+1   Left Midfield",E. Frankfurt,,,"Jul 1, 2014","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lukas Petkov,401639,€1.20m,"Jun 19, 2025","Nov 1, 2000",24,1.83,Bulgaria,[],Right Winger,,SV Elversberg,,,"Aug 21, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Reece Oxford,314295,€500k,"Jun 5, 2025","Dec 16, 1998",26,1.9,England,[],Centre-Back,,Without Club,FC Augsburg,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Max Kruse,36182,,,"Mar 19, 1988",37,1.8,Germany,['Germany'],Second Striker,"                    0
+0      Centre-Forward
+1  Attacking Midfield",BSV Dersim II,,,"Apr 19, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jérôme Roussillon,127076,€800k,"Jun 5, 2025","Jan 6, 1993",32,1.75,Guadeloupe,"['Guadeloupe', 'France']",Left-Back,"               0
+0  Left Midfield",Without Club,Union Berlin,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ryan Gravenberch,478573,€75.00m,"May 30, 2025","May 16, 2002",23,1.9,Netherlands,[],Defensive Midfield,,Liverpool,,,"Sep 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sven Ulreich,40680,€500k,"Jun 5, 2025","Aug 3, 1988",36,1.92,Germany,[],Goalkeeper,,Bayern Munich,,,"Jul 1, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christoph Baumgartner,324278,€12.00m,"Jun 5, 2025","Aug 1, 1999",26,1.8,Austria,['Austria'],Attacking Midfield,"                0
+0  Second Striker
+1     Left Winger",RB Leipzig,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Konrad Laimer,223967,€25.00m,"Jun 5, 2025","May 27, 1997",28,1.8,Austria,[],Right-Back,,Bayern Munich,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Dorsch,251302,€3.50m,"Jun 5, 2025","Jan 15, 1998",27,1.78,Germany,[],Defensive Midfield,,Heidenheim,,,"Aug 30, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sebastiaan Bornauw,338629,€6.00m,"Jun 5, 2025","Mar 22, 1999",26,1.91,Belgium,['Belgium'],Centre-Back,"            0
+0  Right-Back",Leeds,,,"Jul 1, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Angeliño,277179,€20.00m,"Jun 17, 2025","Jan 4, 1997",28,1.71,Spain,[],Left-Back,,AS Roma,,,"Jul 1, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tom Rothe,798043,€10.00m,"Jun 5, 2025","Oct 29, 2004",20,1.93,Germany,[],Left Midfield,,Union Berlin,,,"Aug 7, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mohamed Simakan,666234,€23.00m,"May 27, 2025","May 3, 2000",25,1.87,France,"['France', 'Guinea']",Centre-Back,"            0
+0  Right-Back",Al-Nassr,,,"Sep 2, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Wind,391004,€12.00m,"Jun 5, 2025","Feb 7, 1999",26,1.9,Denmark,[],Centre-Forward,,VfL Wolfsburg,,,"Jan 31, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Stanley Nsoki,371141,€2.50m,"Jun 5, 2025","Apr 9, 1999",26,1.84,France,[],Centre-Back,,Union Berlin,,,"Jul 24, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Semir Telalovic,583767,€1.50m,"Jun 19, 2025","Dec 23, 1999",25,1.87,Germany,[],Centre-Forward,,1.FC Nuremberg,,,"Jul 1, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Hofmann,7161,€2.00m,"Jun 5, 2025","Jul 14, 1992",33,1.76,Germany,[],Attacking Midfield,,B. Leverkusen,,,"Jul 5, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Manuel Neuer,17259,€4.00m,"Jun 5, 2025","Mar 27, 1986",39,1.93,Germany,['Germany'],Goalkeeper,,Bayern Munich,,,"Jul 1, 2011","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tom Rothe,798043,€10.00m,"Jun 5, 2025","Oct 29, 2004",20,1.93,Germany,['Germany'],Left Midfield,"             0
+0    Left-Back
+1  Centre-Back",Union Berlin,,,"Aug 7, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jesper Lindstrøm,513245,€18.00m,"May 30, 2025","Feb 29, 2000",25,1.82,Denmark,[],Right Winger,,VfL Wolfsburg,,,"Jul 23, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mamadou Doucouré,340480,,,"May 21, 1998",27,1.83,France,[],Centre-Back,,Without Club,Bor. M'gladbach,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nico Elvedi,192635,€8.00m,"Jun 5, 2025","Sep 30, 1996",28,1.89,Switzerland,[],Centre-Back,,Bor. M'gladbach,,,"Jul 1, 2015","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Nmecha,406640,€28.00m,"Jun 5, 2025","Oct 10, 2000",24,1.9,Germany,"['Germany', 'England']",Central Midfield,"                    0
+0  Attacking Midfield
+1  Defensive Midfield",Bor. Dortmund,,,"Jul 3, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jérôme Roussillon,127076,€800k,"Jun 5, 2025","Jan 6, 1993",32,1.75,Guadeloupe,[],Left-Back,,Without Club,Union Berlin,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Göktan Gürpüz,655912,€1.00m,"Jun 25, 2025","Jan 22, 2003",22,1.78,Türkiye,[],Attacking Midfield,,Genclerbirligi,,,"Jul 31, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Edmond Tapsoba,564545,€35.00m,"Jun 5, 2025","Feb 2, 1999",26,1.94,Burkina Faso,[],Centre-Back,,B. Leverkusen,,,"Jan 31, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dennis Geiger,251309,€2.00m,"Jun 5, 2025","Jun 10, 1998",27,1.73,Germany,[],Central Midfield,,TSG Hoffenheim,,,"Jul 1, 2016","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Oliver Baumann,55089,€3.00m,"Jun 5, 2025","Jun 2, 1990",35,1.87,Germany,[],Goalkeeper,,TSG Hoffenheim,,,"Jul 1, 2014","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Umut Tohumcu,569031,€6.00m,"Jun 5, 2025","Aug 11, 2004",20,1.75,Germany,[],Central Midfield,,TSG Hoffenheim,,,"Jan 18, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Serge Gnabry,159471,€22.00m,"Jun 5, 2025","Jul 14, 1995",30,1.76,Germany,"['Germany', ""Cote d'Ivoire""]",Left Winger,"                0
+0    Right Winger
+1  Second Striker",Bayern Munich,,,"Jul 1, 2017","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Andrej Kramaric,46580,€4.00m,"Jun 5, 2025","Jun 19, 1991",34,1.77,Croatia,[],Attacking Midfield,,TSG Hoffenheim,,,"Jul 1, 2016","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ridle Baku,327251,€9.00m,"Jun 5, 2025","Apr 8, 1998",27,1.76,Germany,[],Right-Back,,RB Leipzig,,,"Jan 10, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Moritz Nicolas,284270,€5.00m,"Jun 5, 2025","Oct 21, 1997",27,1.93,Germany,[],Goalkeeper,,Bor. M'gladbach,,,"Jul 1, 2016","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Stefan Bell,82350,€800k,"Jun 5, 2025","Aug 24, 1991",33,1.92,Germany,[],Centre-Back,,1.FSV Mainz 05,,,"Jul 1, 2010","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daley Blind,12282,€1.50m,"Jun 9, 2025","Mar 9, 1990",35,1.8,Netherlands,[],Centre-Back,,Girona,,,"Jul 7, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Paulo Otávio,221611,€3.00m,"May 28, 2025","Nov 23, 1994",30,1.73,Brazil,[],Left-Back,,Al-Sadd,,,"Jul 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dario Gebuhr,666168,€225k,"Jun 11, 2025","May 6, 2003",22,1.88,Germany,[],Centre-Back,,Hansa Rostock,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+André Hahn,42783,,,"Aug 13, 1990",34,1.85,Germany,[],Right Winger,,KSV Urberach,,,"Aug 8, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Angelo Stiller,443710,€45.00m,"Jun 5, 2025","Apr 4, 2001",24,1.83,Germany,[],Defensive Midfield,,VfB Stuttgart,,,"Aug 25, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Yann Sommer,42205,€4.00m,"Jun 17, 2025","Dec 17, 1988",36,1.83,Switzerland,[],Goalkeeper,,Inter,,,"Aug 7, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Randal Kolo Muani,487969,€30.00m,"Jun 17, 2025","Dec 5, 1998",26,1.87,France,[],Centre-Forward,,Paris SG,,,"Sep 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Yussuf Poulsen,157635,€5.00m,"Jun 5, 2025","Jun 15, 1994",31,1.92,Denmark,[],Centre-Forward,,Hamburger SV,,,"Jul 13, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maxim Leitsch,334207,€1.50m,"Jun 5, 2025","May 18, 1998",27,1.89,Germany,[],Centre-Back,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Justin Njinmah,596153,€7.00m,"Jun 5, 2025","Nov 15, 2000",24,1.85,Germany,[],Right Winger,,Werder Bremen,,,"Jan 5, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Makoto Hasebe,39259,,,"Jan 18, 1984",41,1.8,Japan,[],Defensive Midfield,,Retired,E. Frankfurt,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Arne Maier,296397,€4.00m,"Jun 5, 2025","Jan 8, 1999",26,1.86,Germany,[],Central Midfield,,FC Augsburg,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Georginio Rutter,538977,€32.00m,"May 30, 2025","Apr 20, 2002",23,1.82,France,[],Centre-Forward,,Brighton,,,"Aug 19, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcus Ingvartsen,269878,€4.00m,"Jun 5, 2025","Jan 4, 1996",29,1.87,Denmark,[],Centre-Forward,,San Diego,,,"Jan 31, 2025","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daniel Klein,392124,€150k,"Jun 5, 2025","Mar 13, 2001",24,1.93,Germany,[],Goalkeeper,,FC Augsburg,,,"Jul 2, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aymen Barkok,315332,€500k,"Jun 19, 2025","May 21, 1998",27,1.89,Morocco,"['Germany', 'Morocco']",Attacking Midfield,"                  0
+0  Central Midfield
+1    Right Midfield",Without Club,FC Schalke 04,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jae-sung Lee,314398,€2.50m,"Jun 5, 2025","Aug 10, 1992",32,1.8,"Korea, South",[],Attacking Midfield,,1.FSV Mainz 05,,,"Jul 8, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Weigl,196792,€6.00m,"Jun 5, 2025","Sep 8, 1995",29,1.86,Germany,[],Defensive Midfield,,Bor. M'gladbach,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tony Jantschke,47587,,,"Apr 7, 1990",35,1.77,Germany,[],Right-Back,,Retired,Bor. M'gladbach,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ben Bobzien,658116,€1.20m,"Jun 6, 2025","Apr 29, 2003",22,1.74,Germany,[],Centre-Forward,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Renato Veiga,805714,€25.00m,"Jun 17, 2025","Jul 29, 2003",22,1.9,Portugal,"['Cape Verde', 'Portugal']",Centre-Back,"                    0
+0           Left-Back
+1  Defensive Midfield",Chelsea,,,"Jul 12, 2024","Jun 30, 2031",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Benjamin Hübner,52348,,,"Jul 4, 1989",36,1.93,Germany,['Germany'],Centre-Back,"                    0
+0           Left-Back
+1  Defensive Midfield",Retired,TSG Hoffenheim,"Dec 6, 2022",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ermin Bicakcic,51676,€400k,"Jun 19, 2025","Jan 24, 1990",35,1.85,Bosnia-Herzegovina,[],Centre-Back,,Without Club,E. Braunschweig,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Silvan Widmer,168989,€1.20m,"Jun 5, 2025","Mar 5, 1993",32,1.83,Switzerland,[],Right-Back,,1.FSV Mainz 05,,,"Jul 9, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Stefan Lainer,85791,€1.20m,"Jun 5, 2025","Aug 27, 1992",32,1.75,Austria,[],Right-Back,,RB Salzburg,,,"Jun 8, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ludovic Ajorque,283994,€4.00m,"Jun 3, 2025","Feb 25, 1994",31,1.96,France,"['France', 'Réunion']",Centre-Forward,,Stade Brestois,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nico Schulz,85867,€300k,"Jun 25, 2025","Apr 1, 1993",32,1.8,Germany,[],Left-Back,,Without Club,Ankaragücü,"Jul 7, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Timo Werner,170527,€7.00m,"May 30, 2025","Mar 6, 1996",29,1.8,Germany,[],Left Winger,,RB Leipzig,,,"Aug 9, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maximilian Bauer,388363,€2.00m,"Jun 19, 2025","Feb 9, 2000",25,1.89,Germany,[],Centre-Back,,FC Augsburg,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Omlin,247915,€2.50m,"Jun 5, 2025","Jan 10, 1994",31,1.9,Switzerland,[],Goalkeeper,,Bor. M'gladbach,,,"Jan 19, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lucas Alario,193782,€700k,"Jun 2, 2025","Oct 8, 1992",32,1.85,Argentina,[],Centre-Forward,,Estudiantes LP,,,"Jan 15, 2025","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nathanaël Mbuku,557614,€1.00m,"Jun 9, 2025","Mar 16, 2002",23,1.7,DR Congo,[],Left Winger,,Montpellier,,,"Jul 8, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcel Sabitzer,106987,€8.00m,"Jun 5, 2025","Mar 17, 1994",31,1.78,Austria,[],Central Midfield,,Bor. Dortmund,,,"Jul 24, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Thomas Müller,58358,€6.00m,"Jun 5, 2025","Sep 13, 1989",35,1.85,Germany,['Germany'],Second Striker,"                    0
+0  Attacking Midfield
+1        Right Winger",Without Club,Bayern Munich,"Aug 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Florian Wirtz,598577,€140.00m,"Jun 5, 2025","May 3, 2003",22,1.77,Germany,['Germany'],Attacking Midfield,"                0
+0    Right Winger
+1  Second Striker",Liverpool,,,"Jul 1, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Pavao Pervan,51977,€300k,"Jun 5, 2025","Nov 13, 1987",37,1.94,Austria,[],Goalkeeper,,VfL Wolfsburg,,,"Jul 1, 2018","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Diant Ramaj,448705,€7.00m,"Jun 16, 2025","Sep 19, 2001",23,1.89,Germany,[],Goalkeeper,,Heidenheim,,,"Jul 28, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Eduardo Quaresma,504073,€18.00m,"May 30, 2025","Mar 2, 2002",23,1.85,Portugal,['Portugal'],Centre-Back,"            0
+0  Right-Back",Sporting CP,,,"Mar 1, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Péter Gulácsi,57071,€2.00m,"Jun 5, 2025","May 6, 1990",35,1.93,Hungary,[],Goalkeeper,,RB Leipzig,,,"Jul 1, 2015","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julien Duranville,819215,€8.50m,"Jun 5, 2025","May 5, 2006",19,1.73,Belgium,[],Left Winger,,Bor. Dortmund,,,"Jan 27, 2023",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robert Skov,270393,€4.00m,"Jun 5, 2025","May 20, 1996",29,1.85,Denmark,[],Left Midfield,,Union Berlin,,,"Sep 4, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Patrick Herrmann,32711,,,"Feb 12, 1991",34,1.79,Germany,[],Right Winger,,Retired,Bor. M'gladbach,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Antonios Papadopoulos,482573,€3.50m,"Jun 10, 2025","Sep 10, 1999",25,1.86,Greece,[],Centre-Back,,FC Lugano,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aymen Barkok,315332,€500k,"Jun 19, 2025","May 21, 1998",27,1.89,Morocco,[],Attacking Midfield,,Without Club,FC Schalke 04,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Uduokhai,278343,€7.00m,"Jun 18, 2025","Sep 9, 1997",27,1.93,Germany,[],Centre-Back,,Besiktas,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Junior Dina Ebimbe,536482,€6.00m,"Jun 5, 2025","Nov 21, 2000",24,1.84,France,[],Right Midfield,,E. Frankfurt,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Luca Unbehaun,388815,€350k,"Jun 9, 2025","Feb 27, 2001",24,1.87,Germany,[],Goalkeeper,,FC Emmen,,,"Jul 1, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nathan Ngoumou,629588,€4.00m,"Jun 5, 2025","Mar 14, 2000",25,1.85,Cameroon,[],Right Winger,,Bor. M'gladbach,,,"Aug 30, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mahmoud Dahoud,191422,€3.50m,"Jun 5, 2025","Jan 1, 1996",29,1.78,Syria,[],Central Midfield,,E. Frankfurt,,,"Aug 30, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Noussair Mazraoui,340456,€25.00m,"May 30, 2025","Nov 14, 1997",27,1.83,Morocco,[],Right-Back,,Man Utd,,,"Aug 13, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Melayro Bogarde,476915,€800k,"Jun 6, 2025","May 28, 2002",23,1.86,Netherlands,[],Centre-Back,,LASK,,,"Jul 1, 2024","May 31, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Donyell Malen,326029,€25.00m,"May 30, 2025","Jan 19, 1999",26,1.76,Netherlands,[],Right Winger,,Aston Villa,,,"Jan 14, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Luca Waldschmidt,196095,€2.00m,"Jun 19, 2025","May 19, 1996",29,1.81,Germany,[],Centre-Forward,,1.FC Köln,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hrvoje Smolcic,571299,€2.00m,"Jun 6, 2025","Aug 17, 2000",24,1.85,Croatia,[],Centre-Back,,E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Bouna Sarr,190685,€700k,"Apr 4, 2025","Jan 31, 1992",33,1.78,Senegal,"['Senegal', 'France']",Right-Back,"                0
+0  Right Midfield
+1    Right Winger",Without Club,Bayern Munich,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Karim Onisiwo,119234,€800k,"Jun 6, 2025","Mar 17, 1992",33,1.88,Austria,[],Centre-Forward,,RB Salzburg,,,"Jan 2, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marius Wolf,193900,€3.00m,"Jun 5, 2025","May 27, 1995",30,1.88,Germany,[],Right-Back,,FC Augsburg,,,"Aug 8, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Vogt,84435,€1.00m,"Jun 5, 2025","Sep 23, 1991",33,1.94,Germany,[],Centre-Back,,VfL Bochum,,,"Jul 7, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dayot Upamecano,344695,€50.00m,"Jun 5, 2025","Oct 27, 1998",26,1.86,France,[],Centre-Back,,Bayern Munich,,,"Jul 5, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jakub Kaminski,407098,€5.00m,"Jun 5, 2025","Jun 5, 2002",23,1.79,Poland,[],Left Winger,,1.FC Köln,,,"Jul 4, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Akpoguma,160241,€2.50m,"Jun 5, 2025","Apr 19, 1995",30,1.92,Nigeria,[],Centre-Back,,TSG Hoffenheim,,,"Jul 1, 2013","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Weigl,196792,€6.00m,"Jun 5, 2025","Sep 8, 1995",29,1.86,Germany,['Germany'],Defensive Midfield,"                  0
+0  Central Midfield
+1       Centre-Back",Bor. M'gladbach,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Abdou Diallo,229005,€5.00m,"May 28, 2025","May 4, 1996",29,1.86,Senegal,"['Senegal', 'France']",Centre-Back,"                    0
+0           Left-Back
+1  Defensive Midfield",Al-Arabi SC,,,"Aug 15, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Omar Marmoush,445939,€75.00m,"May 30, 2025","Feb 7, 1999",26,1.83,Egypt,[],Centre-Forward,,Man City,,,"Jan 23, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hugo Novoa,668276,€1.50m,"Jun 9, 2025","Jan 24, 2003",22,1.82,Spain,[],Right-Back,,Alavés,,,"Jul 22, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hannes Wolf,321070,€3.50m,"Jun 5, 2025","Apr 16, 1999",26,1.79,Austria,[],Right Winger,,New York City,,,"Jan 31, 2024","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Bouna Sarr,190685,€700k,"Apr 4, 2025","Jan 31, 1992",33,1.78,Senegal,[],Right-Back,,Without Club,Bayern Munich,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Süle,166601,€8.00m,"Jun 5, 2025","Sep 3, 1995",29,1.95,Germany,['Germany'],Centre-Back,"            0
+0  Right-Back",Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marvin Friedrich,196231,€3.50m,"Jun 5, 2025","Dec 13, 1995",29,1.93,Germany,[],Centre-Back,,Bor. M'gladbach,,,"Jan 11, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lukas Ambros,671548,€550k,"Jun 6, 2025","Jun 5, 2004",21,1.82,Czech Republic,[],Attacking Midfield,,Górnik Zabrze,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Fisnik Asllani,524290,€8.00m,"Jun 19, 2025","Aug 8, 2002",22,1.91,Kosovo,[],Centre-Forward,,TSG Hoffenheim,,,"Jan 4, 2022","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Muhammed Damar,789898,€7.00m,"Jun 19, 2025","Apr 9, 2004",21,1.85,Germany,[],Attacking Midfield,,TSG Hoffenheim,,,"Jul 1, 2022","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alexander Meyer,76158,€800k,"Jun 5, 2025","Apr 13, 1991",34,1.95,Germany,[],Goalkeeper,,Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Stefan Lainer,85791,€1.20m,"Jun 5, 2025","Aug 27, 1992",32,1.75,Austria,['Austria'],Right-Back,"                0
+0  Right Midfield",RB Salzburg,,,"Jun 8, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Simon Simoni,726120,€600k,"Jun 19, 2025","Jul 14, 2004",21,1.95,Albania,[],Goalkeeper,,1.FC K'lautern,,,"Jan 15, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Eric-Maxim Choupo-Moting,45660,€1.50m,"Jun 5, 2025","Mar 23, 1989",36,1.91,Cameroon,[],Centre-Forward,,New York,,,"Jan 1, 2025","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jeremie Frimpong,484547,€50.00m,"Jun 5, 2025","Dec 10, 2000",24,1.72,Netherlands,[],Right-Back,,Liverpool,,,"Jul 1, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lasse Rieß,490609,€400k,"Jun 5, 2025","Jul 27, 2001",24,1.92,Germany,[],Goalkeeper,,1.FSV Mainz 05,,,"Jul 1, 2021","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Luca Philipp,432671,€750k,"Jun 5, 2025","Nov 28, 2000",24,1.92,Germany,[],Goalkeeper,,TSG Hoffenheim,,,"Jul 31, 2020","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mattias Svanberg,342405,€12.00m,"Jun 5, 2025","Jan 5, 1999",26,1.85,Sweden,[],Central Midfield,,VfL Wolfsburg,,,"Jul 16, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Brajan Gruda,700106,€25.00m,"May 30, 2025","May 31, 2004",21,1.78,Germany,[],Right Winger,,Brighton,,,"Aug 14, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Florian Niederlechner,152963,€400k,"Jun 19, 2025","Oct 24, 1990",34,1.87,Germany,[],Centre-Forward,,1860 Munich,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Kampl,53418,€2.50m,"Jun 5, 2025","Oct 9, 1990",34,1.78,Slovenia,"['Germany', 'Slovenia']",Central Midfield,"                0
+0  Right Midfield
+1   Left Midfield",RB Leipzig,,,"Aug 31, 2017","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Caden Clark,742297,€1.80m,"Jun 5, 2025","May 27, 2003",22,1.8,United States,[],Attacking Midfield,,Montréal,,,"Aug 8, 2024","Dec 31, 2025",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Klinger,192268,€100k,"Jun 5, 2025","Oct 13, 1995",29,1.87,Germany,[],Goalkeeper,,Without Club,VfL Wolfsburg,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Moussa Diaby,395516,€30.00m,"May 27, 2025","Jul 7, 1999",26,1.7,France,"['France', 'Mali']",Right Winger,"                    0
+0         Left Winger
+1  Attacking Midfield",Al-Ittihad,,,"Jul 24, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Soumaïla Coulibaly,659513,€8.00m,"Jun 3, 2025","Oct 14, 2003",21,1.91,France,[],Centre-Back,,R. Strasbourg,,,"Jul 7, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Diadié Samassékou,315604,€1.00m,"Jun 5, 2025","Jan 11, 1996",29,1.77,Mali,[],Defensive Midfield,,Without Club,TSG Hoffenheim,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Manuel Neuer,17259,€4.00m,"Jun 5, 2025","Mar 27, 1986",39,1.93,Germany,[],Goalkeeper,,Bayern Munich,,,"Jul 1, 2011","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Luca Pellegrini,346567,€3.00m,"Jun 17, 2025","Mar 7, 1999",26,1.78,Italy,[],Left-Back,,Lazio,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Conor Noß,520857,€350k,"Jun 6, 2025","Jan 1, 2001",24,1.82,Ireland,[],Left Winger,,MSV Duisburg,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Frederik Winther,569349,€700k,"Jun 18, 2025","Jan 4, 2001",24,1.9,Denmark,[],Centre-Back,,Hammarby,,,"Mar 27, 2024","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Rafal Gikiewicz,78339,€250k,"Jun 6, 2025","Oct 26, 1987",37,1.9,Poland,[],Goalkeeper,,Widzew Lodz,,,"Feb 13, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aurélio Buta,258039,€5.00m,"Jun 3, 2025","Feb 10, 1997",28,1.72,Portugal,[],Right-Back,,E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alexander Hack,126281,€1.00m,"Jun 5, 2025","Sep 8, 1993",31,1.93,Germany,[],Centre-Back,,New York,,,"Jan 31, 2025","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Amine Adli,532776,€18.00m,"Jun 5, 2025","May 10, 2000",25,1.8,Morocco,[],Left Winger,,B. Leverkusen,,,"Aug 26, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Simon Walde,912455,€300k,"Jun 23, 2025","Jan 4, 2005",20,1.85,Germany,[],Right-Back,,M'gladbach II,,,"Jul 1, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kasper Dolberg,283196,€13.00m,"Jun 12, 2025","Oct 6, 1997",27,1.87,Denmark,[],Centre-Forward,,RSC Anderlecht,,,"Jul 7, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Timothy Chandler,49723,€350k,"Jun 5, 2025","Mar 29, 1990",35,1.87,United States,[],Right-Back,,E. Frankfurt,,,"Jul 1, 2014","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ricardo Pepi,627207,€16.00m,"May 28, 2025","Jan 9, 2003",22,1.85,United States,[],Centre-Forward,,PSV Eindhoven,,,"Jul 7, 2023","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Timo Schlieck,897425,€400k,"Apr 24, 2025","Mar 2, 2006",19,1.93,Germany,[],Goalkeeper,,Greuther Fürth,,,"Jul 2, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Finn Becker,334999,€2.00m,"Jun 5, 2025","Jun 8, 2000",25,1.77,Germany,[],Central Midfield,,TSG Hoffenheim,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Merveille Papela,405689,€600k,"Jun 19, 2025","Jan 18, 2001",24,1.74,Germany,[],Central Midfield,,Darmstadt 98,,,"Jul 1, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jens Grahl,40034,€200k,"Jun 5, 2025","Sep 22, 1988",36,1.92,Germany,[],Goalkeeper,,E. Frankfurt,,,"Jul 19, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sebastian Rode,44466,,,"Oct 11, 1990",34,1.79,Germany,[],Central Midfield,,Retired,E. Frankfurt,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Abdoulaye Kamara,718232,€700k,"May 27, 2025","Nov 6, 2004",20,1.85,Guinea,"['France', 'Guinea']",Defensive Midfield,"                  0
+0  Central Midfield",Portsmouth,,,"Aug 20, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcus Thuram,318528,€75.00m,"Jun 17, 2025","Aug 6, 1997",27,1.92,France,[],Centre-Forward,,Inter,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lucas Hernández,281963,€25.00m,"Jun 3, 2025","Feb 14, 1996",29,1.84,France,[],Left-Back,,Paris SG,,,"Jul 9, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Rocco Reitz,467434,€15.00m,"Jun 5, 2025","May 29, 2002",23,1.76,Germany,[],Central Midfield,,Bor. M'gladbach,,,"Jul 1, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dion Beljo,618350,€4.00m,"Jun 6, 2025","Mar 1, 2002",23,1.95,Croatia,[],Centre-Forward,,Dinamo Zagreb,,,"Jul 16, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Abdou Diallo,229005,€5.00m,"May 28, 2025","May 4, 1996",29,1.86,Senegal,[],Centre-Back,,Al-Arabi SC,,,"Aug 15, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Nickisch,665971,€175k,"Jun 23, 2025","May 21, 2004",21,1.91,Germany,[],Goalkeeper,,Saarbrücken,,,"Jul 1, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joshua Eze,606079,€150k,"Jun 23, 2025","Mar 20, 2003",22,1.83,Germany,[],Defensive Midfield,,SC Verl,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tomas Koubek,146714,€500k,"Jun 17, 2025","Aug 26, 1992",32,1.97,Czech Republic,[],Goalkeeper,,Slovan Liberec,,,"Jan 11, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alphonso Davies,424204,€50.00m,"Jun 5, 2025","Nov 2, 2000",24,1.83,Canada,[],Left-Back,,Bayern Munich,,,"Jan 1, 2019","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kelvin Yeboah,589737,€6.00m,"Jun 5, 2025","May 6, 2000",25,1.85,Italy,[],Centre-Forward,,Minnesota,,,"Jul 27, 2024","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joshua Zirkzee,435648,€30.00m,"May 30, 2025","May 22, 2001",24,1.93,Netherlands,[],Centre-Forward,,Man Utd,,,"Jul 14, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Anthony Caci,453016,€12.00m,"Jun 5, 2025","Jul 1, 1997",28,1.84,France,[],Right-Back,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nacho Ferri,867357,€2.20m,"Jun 12, 2025","Oct 5, 2004",20,1.92,Spain,['Spain'],Centre-Forward,,KVC Westerlo,,,"Jul 8, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tom Bischof,822959,€30.00m,"Jun 5, 2025","Jun 28, 2005",20,1.76,Germany,[],Central Midfield,,Bayern Munich,,,"Jun 9, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josip Brekalo,293169,€3.30m,"Jun 18, 2025","Jun 23, 1998",27,1.75,Croatia,[],Left Winger,,Fiorentina,,,"Jan 28, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Luca Netz,524285,€6.00m,"Jun 5, 2025","May 15, 2003",22,1.84,Germany,[],Left-Back,,Bor. M'gladbach,,,"Aug 6, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Amine Adli,532776,€18.00m,"Jun 5, 2025","May 10, 2000",25,1.8,Morocco,"['France', 'Morocco']",Left Winger,"                0
+0    Right Winger
+1  Second Striker",B. Leverkusen,,,"Aug 26, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Abdoulaye Kamara,718232,€700k,"May 27, 2025","Nov 6, 2004",20,1.85,Guinea,[],Defensive Midfield,,Portsmouth,,,"Aug 20, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mats Hummels,39728,,,"Dec 16, 1988",36,1.91,Germany,[],Centre-Back,,Retired,AS Roma,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sardar Azmoun,180337,€8.00m,"May 29, 2025","Jan 1, 1995",30,1.86,Iran,[],Centre-Forward,,Shabab Al-Ahli,,,"Jul 28, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jannik Horz,586229,€100k,"Jun 11, 2025","Apr 14, 2003",22,1.93,Germany,[],Goalkeeper,,K. Offenbach,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Micky van de Ven,557459,€50.00m,"May 30, 2025","Apr 19, 2001",24,1.93,Netherlands,[],Centre-Back,,Tottenham,,,"Aug 8, 2023","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mario Götze,74842,€4.00m,"Jun 5, 2025","Jun 3, 1992",33,1.76,Germany,[],Attacking Midfield,,E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nadiem Amiri,232454,€20.00m,"Jun 5, 2025","Oct 27, 1996",28,1.8,Germany,[],Central Midfield,,1.FSV Mainz 05,,,"Jan 31, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Patrik Schick,242086,€27.00m,"Jun 5, 2025","Jan 24, 1996",29,1.91,Czech Republic,[],Centre-Forward,,B. Leverkusen,,,"Sep 8, 2020","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kaito Mizuta,677794,€275k,"Jun 11, 2025","Apr 8, 2000",25,1.82,Japan,[],Left Winger,,RW Essen,,,"Jan 29, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Anthony Modeste,50512,€100k,"Jun 25, 2025","Apr 14, 1988",37,1.88,France,[],Centre-Forward,,Without Club,CF Intercity,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcel Lotka,453737,€800k,"Jun 11, 2025","May 25, 2001",24,1.9,Germany,[],Goalkeeper,,F. Düsseldorf,,,"Jul 9, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aarón Martín,251878,€6.50m,"Jun 17, 2025","Apr 22, 1997",28,1.78,Spain,[],Left-Back,,Genoa,,,"Jul 3, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Angelo Fulgini,250013,€5.00m,"Jun 3, 2025","Aug 20, 1996",28,1.82,France,[],Attacking Midfield,,Lens,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Emre Can,119296,€7.00m,"Jun 5, 2025","Jan 12, 1994",31,1.86,Germany,[],Defensive Midfield,,Bor. Dortmund,,,"Jul 1, 2020","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jan Schröder,610798,,,"Apr 15, 2003",22,1.82,Germany,[],Left-Back,,Delaware,,,"Jul 1, 2023",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Benjamin Pavard,353366,€25.00m,"Jun 17, 2025","Mar 28, 1996",29,1.86,France,['France'],Centre-Back,"            0
+0  Right-Back",Inter,,,"Aug 30, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maximilian Arnold,117674,€5.00m,"Jun 5, 2025","May 27, 1994",31,1.84,Germany,[],Central Midfield,,VfL Wolfsburg,,,"Jan 1, 2012","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Baumgartlinger,34787,,,"Jan 2, 1988",37,1.84,Austria,['Austria'],Defensive Midfield,"                  0
+0  Central Midfield",Retired,FC Augsburg,"Jul 24, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Baumgartlinger,34787,,,"Jan 2, 1988",37,1.84,Austria,[],Defensive Midfield,,Retired,FC Augsburg,"Jul 24, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+David Raum,318204,€20.00m,"Jun 5, 2025","Apr 22, 1998",27,1.81,Germany,[],Left-Back,,RB Leipzig,,,"Jul 31, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jamie Gittens,670882,€50.00m,"Jun 5, 2025","Aug 8, 2004",20,1.78,England,[],Left Winger,,Chelsea,,,"Jul 5, 2025","Jun 30, 2032",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Philipp Max,111275,€1.00m,"May 23, 2025","Sep 30, 1993",31,1.77,Germany,['Germany'],Left-Back,"               0
+0  Left Midfield",Panathinaikos,,,"Aug 5, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Edimilson Fernandes,247555,€3.00m,"Jun 3, 2025","Apr 15, 1996",29,1.87,Switzerland,[],Defensive Midfield,,BSC Young Boys,,,"Jul 14, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dion Beljo,618350,€4.00m,"Jun 6, 2025","Mar 1, 2002",23,1.95,Croatia,['Croatia'],Centre-Forward,,Dinamo Zagreb,,,"Jul 16, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Irvin Cardona,342226,€2.50m,"Jun 3, 2025","Aug 8, 1997",27,1.85,France,"['Malta', 'France']",Centre-Forward,"              0
+0  Right Winger
+1   Left Winger",Saint-Étienne,,,"Jul 1, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Danny da Costa,85906,€1.50m,"Jun 5, 2025","Jul 13, 1993",32,1.87,Germany,[],Centre-Back,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Iago,520468,€3.50m,"Jun 6, 2025","Mar 23, 1997",28,1.81,Brazil,[],Left-Back,,EC Bahia,,,"Jul 10, 2024","Dec 31, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ko Itakura,355816,€12.00m,"Jun 5, 2025","Jan 27, 1997",28,1.88,Japan,[],Centre-Back,,Bor. M'gladbach,,,"Jul 2, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kelvin Yeboah,589737,€6.00m,"Jun 5, 2025","May 6, 2000",25,1.85,Italy,"['Italy', 'Ghana']",Centre-Forward,"              0
+0  Right Winger
+1   Left Winger",Minnesota,,,"Jul 27, 2024","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Max Kruse,36182,,,"Mar 19, 1988",37,1.8,Germany,[],Second Striker,,BSV Dersim II,,,"Apr 19, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Trapp,45672,€2.50m,"Jun 5, 2025","Jul 8, 1990",35,1.89,Germany,[],Goalkeeper,,E. Frankfurt,,,"Aug 7, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christoph Kramer,82097,,,"Feb 19, 1991",34,1.91,Germany,[],Defensive Midfield,,Retired,Bor. M'gladbach,"Jun 2, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Irvin Cardona,342226,€2.50m,"Jun 3, 2025","Aug 8, 1997",27,1.85,France,[],Centre-Forward,,Saint-Étienne,,,"Jul 1, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nico Schlotterbeck,388198,€40.00m,"Jun 5, 2025","Dec 1, 1999",25,1.91,Germany,[],Centre-Back,,Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tobias Strobl,57845,,,"May 12, 1990",35,1.88,Germany,[],Defensive Midfield,,Retired,FC Augsburg,"Jul 1, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Paxten Aaronson,795738,€8.00m,"May 28, 2025","Aug 26, 2003",21,1.75,United States,[],Central Midfield,,E. Frankfurt,,,"Jan 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Exequiel Palacios,401578,€40.00m,"Jun 5, 2025","Oct 5, 1998",26,1.78,Argentina,[],Central Midfield,,B. Leverkusen,,,"Jan 1, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Renato Veiga,805714,€25.00m,"Jun 17, 2025","Jul 29, 2003",22,1.9,Portugal,[],Centre-Back,,Chelsea,,,"Jul 12, 2024","Jun 30, 2031",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Willi Orbán,93740,€8.00m,"Jun 5, 2025","Nov 3, 1992",32,1.86,Hungary,[],Centre-Back,,RB Leipzig,,,"Jul 1, 2015","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josué Mbila,381252,,,"Aug 21, 1999",25,1.75,Germany,[],Attacking Midfield,,Without Club,SpVgg Bayreuth,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Faride Alidou,456492,€1.00m,"Jun 19, 2025","Jul 18, 2001",24,1.86,Germany,[],Left Winger,,1.FC K'lautern,,,"Jan 23, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lukas Klostermann,215599,€8.00m,"Jun 5, 2025","Jun 3, 1996",29,1.89,Germany,[],Centre-Back,,RB Leipzig,,,"Aug 22, 2014","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nahuel Noll,600942,€1.80m,"Jun 19, 2025","Mar 17, 2003",22,1.9,Germany,[],Goalkeeper,,Hannover 96,,,"Jul 9, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josuha Guilavogui,93704,€300k,"May 27, 2025","Sep 19, 1990",34,1.88,France,[],Defensive Midfield,,Without Club,Leeds,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Gabriel Marusic,604322,€125k,"Jun 24, 2025","Mar 3, 2003",22,1.86,Croatia,[],Centre-Back,,A. Salzburg,,,"Jul 29, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Philipp Pentke,8246,€200k,"Jun 19, 2025","May 1, 1985",40,1.91,Germany,[],Goalkeeper,,Without Club,1.FC Köln,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dani Olmo,293385,€60.00m,"Jun 9, 2025","May 7, 1998",27,1.79,Spain,['Spain'],Attacking Midfield,"                0
+0     Left Winger
+1  Second Striker",Barcelona,,,"Aug 9, 2024","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aster Vranckx,503881,€7.00m,"Jun 5, 2025","Oct 4, 2002",22,1.83,Belgium,[],Central Midfield,,VfL Wolfsburg,,,"Jul 1, 2021","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mathys Tel,801734,€35.00m,"May 30, 2025","Apr 27, 2005",20,1.83,France,[],Centre-Forward,,Tottenham,,,"Jul 1, 2025","Jun 30, 2031",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Carlos Gruezo,189475,€1.50m,"Jun 16, 2025","Apr 19, 1995",30,1.72,Ecuador,[],Defensive Midfield,,LDU Quito,,,"Jan 25, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcel Halstenberg,70243,,,"Sep 27, 1991",33,1.88,Germany,['Germany'],Centre-Back,"               0
+0      Left-Back
+1  Left Midfield",Germ. Grasdorf,,,"Jul 1, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kerem Demirbay,125858,€2.30m,"Jun 18, 2025","Jul 3, 1993",32,1.83,Germany,[],Central Midfield,,Eyüpspor,,,"Jul 2, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Fredrik Jensen,249157,€3.50m,"Jun 5, 2025","Sep 9, 1997",27,1.83,Finland,[],Attacking Midfield,,Aris Saloniki,,,"Jul 11, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Pavel Kaderabek,143798,€1.70m,"Jun 5, 2025","Apr 25, 1992",33,1.82,Czech Republic,[],Right-Back,,Sparta Prague,,,"Jul 1, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mateu Morey,388513,€800k,"Jun 9, 2025","Mar 2, 2000",25,1.73,Spain,[],Right-Back,,RCD Mallorca,,,"Jul 5, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dani Olmo,293385,€60.00m,"Jun 9, 2025","May 7, 1998",27,1.79,Spain,[],Attacking Midfield,,Barcelona,,,"Aug 9, 2024","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Philipp Schulz,796212,€200k,"Jun 11, 2025","May 25, 2005",20,1.9,Germany,[],Centre-Back,,FSV Mainz 05 II,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sadio Mané,200512,€8.00m,"May 27, 2025","Apr 10, 1992",33,1.74,Senegal,[],Left Winger,,Al-Nassr,,,"Aug 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Liam Morrison,567114,€400k,"May 27, 2025","Apr 7, 2003",22,1.83,Scotland,[],Centre-Back,,QPR,,,"Jul 5, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Benjamin Henrichs,202591,€15.00m,"Jun 5, 2025","Feb 23, 1997",28,1.85,Germany,[],Right-Back,,RB Leipzig,,,"Jul 1, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alexander Sørloth,238407,€25.00m,"Jun 9, 2025","Dec 5, 1995",29,1.95,Norway,[],Centre-Forward,,Atlético Madrid,,,"Aug 3, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mads Pedersen,288429,€2.00m,"Jun 5, 2025","Sep 1, 1996",28,1.78,Denmark,[],Left-Back,,FC Augsburg,,,"Jul 1, 2019","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Oskar Preil,710045,,,"Sep 14, 2003",21,1.89,Germany,[],Goalkeeper,,ASV Neumarkt,,,"Jul 23, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Bartosz Bialek,535551,€800k,"Jun 5, 2025","Nov 11, 2001",23,1.91,Poland,[],Centre-Forward,,Darmstadt 98,,,"Jul 15, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ihlas Bebou,237164,€1.00m,"Jun 5, 2025","Apr 23, 1994",31,1.85,Togo,[],Centre-Forward,,TSG Hoffenheim,,,"Jul 1, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Diadié Samassékou,315604,€1.00m,"Jun 5, 2025","Jan 11, 1996",29,1.77,Mali,['Mali'],Defensive Midfield,"                  0
+0  Central Midfield",Without Club,TSG Hoffenheim,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joel Pohjanpalo,173491,€4.50m,"Jun 2, 2025","Sep 13, 1994",30,1.86,Finland,[],Centre-Forward,,Palermo,,,"Feb 3, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sanoussy Ba,717346,€400k,"Jun 19, 2025","Jan 5, 2004",21,1.84,Germany,[],Right-Back,,E. Braunschweig,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Junior Dina Ebimbe,536482,€6.00m,"Jun 5, 2025","Nov 21, 2000",24,1.84,France,"['Cameroon', 'France']",Right Midfield,"                  0
+0  Central Midfield
+1     Left Midfield",E. Frankfurt,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Semir Telalovic,583767,€1.50m,"Jun 19, 2025","Dec 23, 1999",25,1.87,Germany,"['Germany', 'Bosnia-Herzegovina']",Centre-Forward,,1.FC Nuremberg,,,"Jul 1, 2025",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mahmoud Dahoud,191422,€3.50m,"Jun 5, 2025","Jan 1, 1996",29,1.78,Syria,"['Germany', 'Syria']",Central Midfield,"                    0
+0  Defensive Midfield",E. Frankfurt,,,"Aug 30, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+André Silva,198008,€4.00m,"Jun 5, 2025","Nov 6, 1995",29,1.86,Portugal,[],Centre-Forward,,RB Leipzig,,,"Jul 2, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Süle,166601,€8.00m,"Jun 5, 2025","Sep 3, 1995",29,1.95,Germany,[],Centre-Back,,Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marco Reus,35207,€2.00m,"Jun 5, 2025","May 31, 1989",36,1.8,Germany,[],Attacking Midfield,,LA Galaxy,,,"Aug 14, 2024","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ko Itakura,355816,€12.00m,"Jun 5, 2025","Jan 27, 1997",28,1.88,Japan,['Japan'],Centre-Back,"                    0
+0  Defensive Midfield",Bor. M'gladbach,,,"Jul 2, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kingsley Coman,243714,€30.00m,"Jun 5, 2025","Jun 13, 1996",29,1.81,France,[],Left Winger,,Bayern Munich,,,"Jul 1, 2017","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Benjamin Leneis,381250,€50k,"Jun 23, 2025","Mar 8, 1999",26,1.95,Germany,[],Goalkeeper,,Without Club,FSV Zwickau,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Almamy Touré,216181,€600k,"Jun 19, 2025","Apr 28, 1996",29,1.81,Mali,[],Centre-Back,,Without Club,1.FC K'lautern,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ayman Azhil,452068,€700k,"Jun 11, 2025","Apr 10, 2001",24,1.75,Morocco,[],Defensive Midfield,,B. Dortmund II,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daniel Katic,692049,€75k,"Jun 22, 2025","Apr 26, 2003",22,1.85,Croatia,[],Centre-Back,,HSK Posusje,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lucas Laux,584062,€75k,"Jun 11, 2025","Oct 14, 2002",22,1.83,Germany,[],Centre-Back,,Eintracht Trier,,,"Jul 10, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Omar Marmoush,445939,€75.00m,"May 30, 2025","Feb 7, 1999",26,1.83,Egypt,"['Egypt', 'Canada']",Centre-Forward,"                0
+0     Left Winger
+1  Second Striker",Man City,,,"Jan 23, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Passlack,274461,€2.00m,"Jun 5, 2025","May 29, 1998",27,1.7,Germany,[],Right-Back,,VfL Bochum,,,"Jul 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonathan Tah,196357,€30.00m,"Jun 5, 2025","Feb 11, 1996",29,1.95,Germany,[],Centre-Back,,Bayern Munich,,,"Jun 9, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Gabriel Vidovic,604327,€3.00m,"Jun 5, 2025","Dec 1, 2003",21,1.8,Croatia,[],Second Striker,,Dinamo Zagreb,,,"Jul 1, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sebastian Rudy,57051,,,"Feb 28, 1990",35,1.8,Germany,[],Defensive Midfield,,Retired,TSG Hoffenheim,"Jul 1, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Callum Hudson-Odoi,392768,€25.00m,"May 30, 2025","Nov 7, 2000",24,1.78,England,[],Left Winger,,Forest,,,"Sep 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Justin Janitzek,639580,€250k,"Jun 11, 2025","Feb 10, 2004",21,1.92,Germany,[],Centre-Back,,Wehen Wiesbaden,,,"Jul 1, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Raphaël Guerreiro,170986,€8.00m,"Jun 5, 2025","Dec 22, 1993",31,1.7,Portugal,[],Left-Back,,Bayern Munich,,,"Jul 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Matthijs de Ligt,326031,€38.00m,"May 30, 2025","Aug 12, 1999",25,1.89,Netherlands,[],Centre-Back,,Man Utd,,,"Aug 13, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sven Ulreich,40680,€500k,"Jun 5, 2025","Aug 3, 1988",36,1.92,Germany,['Germany'],Goalkeeper,,Bayern Munich,,,"Jul 1, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dayot Upamecano,344695,€50.00m,"Jun 5, 2025","Oct 27, 1998",26,1.86,France,"['Guinea-Bissau', 'France']",Centre-Back,,Bayern Munich,,,"Jul 5, 2021","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Eduardo Quaresma,504073,€18.00m,"May 30, 2025","Mar 2, 2002",23,1.85,Portugal,[],Centre-Back,,Sporting CP,,,"Mar 1, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Eric-Maxim Choupo-Moting,45660,€1.50m,"Jun 5, 2025","Mar 23, 1989",36,1.91,Cameroon,"['Germany', 'Cameroon']",Centre-Forward,"                0
+0     Left Winger
+1  Second Striker",New York,,,"Jan 1, 2025","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jordan Beyer,403898,€6.00m,"May 27, 2025","May 19, 2000",25,1.87,Germany,[],Centre-Back,,Burnley,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Djibril Sow,212723,€7.50m,"Jun 9, 2025","Feb 6, 1997",28,1.84,Switzerland,[],Central Midfield,,Sevilla FC,,,"Aug 4, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christoph Baumgartner,324278,€12.00m,"Jun 5, 2025","Aug 1, 1999",26,1.8,Austria,[],Attacking Midfield,,RB Leipzig,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Serge Gnabry,159471,€22.00m,"Jun 5, 2025","Jul 14, 1995",30,1.76,Germany,[],Left Winger,,Bayern Munich,,,"Jul 1, 2017","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jamal Musiala,580195,€140.00m,"Jun 5, 2025","Feb 26, 2003",22,1.84,Germany,[],Attacking Midfield,,Bayern Munich,,,"Jul 1, 2020","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Paredes,711517,€7.50m,"Jun 5, 2025","May 7, 2003",22,1.75,United States,"['United States', 'Dominican Republic']",Left Midfield,"                0
+0     Left Winger
+1  Right Midfield",VfL Wolfsburg,,,"Jan 28, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jan Olschowsky,455922,€500k,"Jun 11, 2025","Nov 18, 2001",23,1.84,Germany,[],Goalkeeper,,Alem. Aachen,,,"Jan 9, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ørjan Nyland,73517,€900k,"Jun 9, 2025","Sep 10, 1990",34,1.92,Norway,[],Goalkeeper,,Sevilla FC,,,"Aug 20, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ozan Kabak,361260,€5.00m,"Jun 5, 2025","Mar 25, 2000",25,1.87,Türkiye,[],Centre-Back,,TSG Hoffenheim,,,"Jul 23, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Arijon Ibrahimovic,744728,€4.00m,"Jun 17, 2025","Dec 11, 2005",19,1.78,Germany,[],Attacking Midfield,,Heidenheim,,,"Jul 1, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Daichi Kamada,356141,€12.00m,"May 30, 2025","Aug 5, 1996",28,1.8,Japan,[],Attacking Midfield,,Crystal Palace,,,"Jul 1, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Rubén Vargas,345886,€7.00m,"Jun 9, 2025","Aug 5, 1998",26,1.79,Switzerland,[],Left Winger,,Sevilla FC,,,"Jan 10, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Koen Casteels,108880,€4.50m,"May 27, 2025","Jun 25, 1992",33,1.97,Belgium,[],Goalkeeper,,Al-Qadsiah,,,"Jul 18, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Manu Koné,624690,€40.00m,"Jun 17, 2025","May 17, 2001",24,1.85,France,[],Central Midfield,,AS Roma,,,"Aug 30, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josip Brekalo,293169,€3.30m,"Jun 18, 2025","Jun 23, 1998",27,1.75,Croatia,['Croatia'],Left Winger,"                0
+0    Right Winger
+1  Second Striker",Fiorentina,,,"Jan 28, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mergim Berisha,307924,€3.50m,"Jun 5, 2025","May 11, 1998",27,1.88,Germany,[],Centre-Forward,,TSG Hoffenheim,,,"Aug 30, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mario Götze,74842,€4.00m,"Jun 5, 2025","Jun 3, 1992",33,1.76,Germany,['Germany'],Attacking Midfield,"              0
+0  Right Winger
+1   Left Winger",E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Charles Aránguiz,89701,€800k,"Jun 30, 2025","Apr 17, 1989",36,1.72,Chile,[],Central Midfield,,U. de Chile,,,"Aug 5, 2024","Dec 31, 2025",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Yannick Gerhardt,119277,€2.50m,"Jun 5, 2025","Mar 13, 1994",31,1.84,Germany,[],Central Midfield,,VfL Wolfsburg,,,"Jul 1, 2016",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lars Stindl,48298,,,"Aug 26, 1988",36,1.81,Germany,[],Attacking Midfield,,Retired,Karlsruher SC,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Felix Nmecha,406640,€28.00m,"Jun 5, 2025","Oct 10, 2000",24,1.9,Germany,[],Central Midfield,,Bor. Dortmund,,,"Jul 3, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+David Colina,371000,€850k,"Jun 16, 2025","Jul 19, 2000",25,1.74,Croatia,[],Left-Back,,NK Osijek,,,"Jul 26, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Piero Hincapié,659813,€50.00m,"Jun 5, 2025","Jan 9, 2002",23,1.84,Ecuador,[],Centre-Back,,B. Leverkusen,,,"Aug 16, 2021","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joshua Kimmich,161056,€45.00m,"Jun 5, 2025","Feb 8, 1995",30,1.77,Germany,[],Defensive Midfield,,Bayern Munich,,,"Jul 2, 2015","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Sébastien Haller,181375,€3.00m,"May 28, 2025","Jun 22, 1994",31,1.9,Cote d'Ivoire,[],Centre-Forward,,Bor. Dortmund,,,"Jul 6, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tuta,546213,€15.00m,"Jun 5, 2025","Jul 4, 1999",26,1.85,Brazil,[],Centre-Back,,E. Frankfurt,,,"Jan 31, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+John Brooks,124732,€500k,"Jun 19, 2025","Jan 28, 1993",32,1.94,United States,[],Centre-Back,,Hertha BSC,,,"Aug 29, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jacob Bruun Larsen,293281,€5.00m,"Jun 5, 2025","Sep 19, 1998",26,1.83,Denmark,[],Left Winger,,Burnley,,,"Jul 11, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hannes Wolf,321070,€3.50m,"Jun 5, 2025","Apr 16, 1999",26,1.79,Austria,['Austria'],Right Winger,"                    0
+0         Left Winger
+1  Attacking Midfield",New York City,,,"Jan 31, 2024","Dec 31, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alexander Hack,126281,€1.00m,"Jun 5, 2025","Sep 8, 1993",31,1.93,Germany,['Germany'],Centre-Back,,New York,,,"Jan 31, 2025","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Gregor Kobel,257814,€40.00m,"Jun 5, 2025","Dec 6, 1997",27,1.96,Switzerland,[],Goalkeeper,,Bor. Dortmund,,,"Jul 1, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hugo Novoa,668276,€1.50m,"Jun 9, 2025","Jan 24, 2003",22,1.82,Spain,['Spain'],Right-Back,"                0
+0    Right Winger
+1  Centre-Forward",Alavés,,,"Jul 22, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Odilon Kossounou,644771,€25.00m,"Jun 17, 2025","Jan 4, 2001",24,1.91,Cote d'Ivoire,[],Centre-Back,,Atalanta BC,,,"Jul 1, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Silas Ostrzinski,684116,€200k,"Jun 11, 2025","Nov 19, 2003",21,1.98,Germany,[],Goalkeeper,,Bor. Dortmund,,,"Jan 4, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nicolas Cozza,485965,€3.50m,"Jun 3, 2025","Jan 8, 1999",26,1.78,France,[],Left-Back,,FC Nantes,,,"Aug 28, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josip Stanisic,483046,€32.00m,"Jun 5, 2025","Apr 2, 2000",25,1.87,Croatia,[],Right-Back,,Bayern Munich,,,"Aug 1, 2021","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonathan Burkardt,333647,€35.00m,"Jun 5, 2025","Jul 11, 2000",25,1.83,Germany,[],Centre-Forward,,E. Frankfurt,,,"Jul 4, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christopher Lenz,159844,€500k,"Jun 5, 2025","Sep 22, 1994",30,1.8,Germany,[],Left-Back,,F. Düsseldorf,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Kevin Paredes,711517,€7.50m,"Jun 5, 2025","May 7, 2003",22,1.75,United States,[],Left Midfield,,VfL Wolfsburg,,,"Jan 28, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Josko Gvardiol,475959,€75.00m,"May 30, 2025","Jan 23, 2002",23,1.85,Croatia,[],Left-Back,,Man City,,,"Aug 5, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Yvandro Borges Sanches,586659,€500k,"Jun 5, 2025","May 24, 2004",21,1.8,Luxembourg,[],Left Winger,,Bor. M'gladbach,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tanguy Nianzou,538996,€1.50m,"Jun 9, 2025","Jun 7, 2002",23,1.91,France,[],Centre-Back,,Sevilla FC,,,"Aug 17, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jude Bellingham,581678,€180.00m,"Jun 9, 2025","Jun 29, 2003",22,1.86,England,[],Attacking Midfield,,Real Madrid,,,"Jul 1, 2023","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Torben Müsel,368860,€300k,"Jun 11, 2025","Jul 25, 1999",26,1.85,Germany,[],Attacking Midfield,,RW Essen,,,"Jan 30, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Callum Hudson-Odoi,392768,€25.00m,"May 30, 2025","Nov 7, 2000",24,1.78,England,"['England', 'Ghana']",Left Winger,"                    0
+0        Right Winger
+1  Attacking Midfield",Forest,,,"Sep 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Thorgan Hazard,102226,€2.50m,"Jun 12, 2025","Mar 29, 1993",32,1.75,Belgium,[],Left Winger,,RSC Anderlecht,,,"Sep 6, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Karim Bellarabi,61087,,,"Apr 8, 1990",35,1.84,Germany,"['Germany', 'Morocco']",Right Winger,"                0
+0     Left Winger
+1  Second Striker",Retired,B. Leverkusen,"Jul 1, 2023",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Finn Dahmen,251299,€9.00m,"Jun 5, 2025","Mar 27, 1998",27,1.86,Germany,"['Germany', 'England']",Goalkeeper,,FC Augsburg,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Benjamin Pavard,353366,€25.00m,"Jun 17, 2025","Mar 28, 1996",29,1.86,France,[],Centre-Back,,Inter,,,"Aug 30, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Aurélio Buta,258039,€5.00m,"Jun 3, 2025","Feb 10, 1997",28,1.72,Portugal,"['Angola', 'Portugal']",Right-Back,"                0
+0  Right Midfield",E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Tom Bischof,822959,€30.00m,"Jun 5, 2025","Jun 28, 2005",20,1.76,Germany,['Germany'],Central Midfield,"                    0
+0  Attacking Midfield
+1      Right Midfield",Bayern Munich,,,"Jun 9, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Niklas Lomb,85543,€250k,"Jun 5, 2025","Jul 28, 1993",32,1.86,Germany,[],Goalkeeper,,B. Leverkusen,,,"Jul 1, 2012","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marcel Halstenberg,70243,,,"Sep 27, 1991",33,1.88,Germany,[],Centre-Back,,Germ. Grasdorf,,,"Jul 1, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Raphael Framberger,146163,,,"Sep 6, 1995",29,1.79,Germany,[],Right-Back,,Retired,FC Augsburg II,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+João Cancelo,182712,€15.00m,"May 27, 2025","May 27, 1994",31,1.82,Portugal,[],Right-Back,,Al-Hilal,,,"Aug 27, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maxence Lacroix,434224,€25.00m,"May 30, 2025","Apr 6, 2000",25,1.9,France,[],Centre-Back,,Crystal Palace,,,"Aug 30, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Philipp Max,111275,€1.00m,"May 23, 2025","Sep 30, 1993",31,1.77,Germany,[],Left-Back,,Panathinaikos,,,"Aug 5, 2024","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Anderson Lucoqui,240274,€275k,"Jun 11, 2025","Jul 6, 1997",28,1.81,Angola,[],Left-Back,,Without Club,1860 Munich,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Noah Sarenren Bazee,283001,€400k,"Jun 11, 2025","Aug 21, 1996",28,1.83,Germany,[],Right Winger,,Arm. Bielefeld,,,"Aug 31, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Randal Kolo Muani,487969,€30.00m,"Jun 17, 2025","Dec 5, 1998",26,1.87,France,"['France', 'DR Congo']",Centre-Forward,"              0
+0  Right Winger
+1   Left Winger",Paris SG,,,"Sep 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robert Gumny,353826,€1.50m,"Jun 5, 2025","Jun 4, 1998",27,1.82,Poland,[],Right-Back,,Lech Poznan,,,"Jul 1, 2025","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ramy Bensebaini,284732,€7.00m,"Jun 5, 2025","Apr 16, 1995",30,1.87,Algeria,[],Left-Back,,Bor. Dortmund,,,"Jul 1, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Nelson Weiper,796213,€10.00m,"Jun 5, 2025","Mar 17, 2005",20,1.92,Germany,[],Centre-Forward,,1.FSV Mainz 05,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robert Andrich,159088,€9.00m,"Jun 5, 2025","Sep 22, 1994",30,1.87,Germany,[],Defensive Midfield,,B. Leverkusen,,,"Aug 16, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Moussa Diaby,395516,€30.00m,"May 27, 2025","Jul 7, 1999",26,1.7,France,[],Right Winger,,Al-Ittihad,,,"Jul 24, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Stefan Posch,223974,€8.00m,"Jun 17, 2025","May 14, 1997",28,1.9,Austria,[],Centre-Back,,Bologna,,,"Jul 1, 2023","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Patrick Wimmer,533295,€15.00m,"Jun 5, 2025","May 30, 2001",24,1.82,Austria,[],Right Winger,,VfL Wolfsburg,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Emil Forsberg,111078,€3.00m,"Jun 5, 2025","Oct 23, 1991",33,1.77,Sweden,[],Left Winger,,New York,,,"Jan 31, 2024","Dec 31, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mitchel Bakker,361065,€7.00m,"Jun 3, 2025","Jun 20, 2000",25,1.89,Netherlands,[],Left-Back,,Atalanta BC,,,"Jul 7, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Janis Blaswich,81173,€700k,"Jun 6, 2025","May 2, 1991",34,1.93,Germany,[],Goalkeeper,,RB Leipzig,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ermedin Demirovic,335457,€22.00m,"Jun 5, 2025","Mar 25, 1998",27,1.85,Bosnia-Herzegovina,[],Centre-Forward,,VfB Stuttgart,,,"Jul 16, 2024","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Giovanni Reyna,504215,€7.00m,"Jun 5, 2025","Nov 13, 2002",22,1.85,United States,[],Attacking Midfield,,Bor. Dortmund,,,"Jan 12, 2020","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Paulinho,428791,€16.00m,"Jun 6, 2025","Jul 15, 2000",25,1.77,Brazil,[],Left Winger,,Palmeiras,,,"Jan 1, 2025","Dec 31, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Joshua Quarshie,790918,€3.00m,"Jun 19, 2025","Jul 26, 2004",21,1.96,Germany,[],Centre-Back,,Southampton,,,"Jul 1, 2025","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Maximilian Philipp,143891,€800k,"Jun 5, 2025","Mar 1, 1994",31,1.83,Germany,[],Second Striker,,SC Freiburg,,,"Jul 1, 2024",-,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Marlon Mustapha,532495,€600k,"Jun 6, 2025","May 24, 2001",24,1.85,Austria,[],Centre-Forward,,SCR Altach,,,"Feb 5, 2025","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Amadou Haidara,402008,€16.00m,"Jun 5, 2025","Jan 31, 1998",27,1.78,Mali,['Mali'],Central Midfield,"                    0
+0  Defensive Midfield
+1      Right Midfield",RB Leipzig,,,"Jan 1, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Emre Can,119296,€7.00m,"Jun 5, 2025","Jan 12, 1994",31,1.86,Germany,"['Germany', 'Türkiye']",Defensive Midfield,"                  0
+0  Central Midfield
+1       Centre-Back",Bor. Dortmund,,,"Jul 1, 2020","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Amadou Haidara,402008,€16.00m,"Jun 5, 2025","Jan 31, 1998",27,1.78,Mali,[],Central Midfield,,RB Leipzig,,,"Jan 1, 2019","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Andrey Lunev,112541,€1.20m,"Jun 4, 2025","Nov 13, 1991",33,1.9,Russia,[],Goalkeeper,,Dynamo Moscow,,,"Jul 1, 2024","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Timothy Fosu-Mensah,315131,€500k,"Apr 4, 2025","Jan 2, 1998",27,1.88,Netherlands,[],Right-Back,,Without Club,B. Leverkusen,"Jul 1, 2024",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Filip Kostić,161011,€5.00m,"Jun 18, 2025","Nov 1, 1992",32,1.84,Serbia,[],Left Midfield,,Juventus,,,"Aug 12, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Dzenan Pejcinovic,819636,€4.00m,"Jun 19, 2025","Feb 15, 2005",20,1.9,Germany,[],Centre-Forward,,VfL Wolfsburg,,,"Jul 14, 2022","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Xaver Schlager,223979,€10.00m,"Jun 5, 2025","Sep 28, 1997",27,1.74,Austria,[],Central Midfield,,RB Leipzig,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Christopher Nkunku,344381,€35.00m,"May 30, 2025","Nov 14, 1997",27,1.77,France,"['France', 'DR Congo']",Centre-Forward,"                    0
+0  Attacking Midfield
+1         Left Winger",Chelsea,,,"Jul 1, 2023","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Julian Ryerson,370789,€20.00m,"Jun 5, 2025","Nov 17, 1997",27,1.83,Norway,[],Right-Back,,Bor. Dortmund,,,"Jan 17, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jonas Omlin,247915,€2.50m,"Jun 5, 2025","Jan 10, 1994",31,1.9,Switzerland,['Switzerland'],Goalkeeper,,Bor. M'gladbach,,,"Jan 19, 2023","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robert Andrich,159088,€9.00m,"Jun 5, 2025","Sep 22, 1994",30,1.87,Germany,['Germany'],Defensive Midfield,"                  0
+0  Central Midfield
+1       Centre-Back",B. Leverkusen,,,"Aug 16, 2021","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Hrvoje Smolcic,571299,€2.00m,"Jun 6, 2025","Aug 17, 2000",24,1.85,Croatia,['Croatia'],Centre-Back,"           0
+0  Left-Back",E. Frankfurt,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Thomas Müller,58358,€6.00m,"Jun 5, 2025","Sep 13, 1989",35,1.85,Germany,[],Second Striker,,Without Club,Bayern Munich,"Aug 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Rocco Reitz,467434,€15.00m,"Jun 5, 2025","May 29, 2002",23,1.76,Germany,['Germany'],Central Midfield,"                    0
+0  Attacking Midfield
+1  Defensive Midfield",Bor. M'gladbach,,,"Jul 1, 2020","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Mohamed Simakan,666234,€23.00m,"May 27, 2025","May 3, 2000",25,1.87,France,[],Centre-Back,,Al-Nassr,,,"Sep 2, 2024","Jun 30, 2029",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Youssoufa Moukoko,467720,€10.00m,"Jun 3, 2025","Nov 20, 2004",20,1.79,Germany,[],Centre-Forward,,FC Copenhagen,,,"Jul 1, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Robin Zentner,160963,€4.00m,"Jun 5, 2025","Oct 28, 1994",30,1.95,Germany,['Germany'],Goalkeeper,,1.FSV Mainz 05,,,"Jul 1, 2014","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Lukas Hradecky,48015,€2.00m,"Jun 5, 2025","Nov 24, 1989",35,1.92,Finland,[],Goalkeeper,,B. Leverkusen,,,"Jul 1, 2018","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Karim Adeyemi,496094,€45.00m,"Jun 5, 2025","Jan 18, 2002",23,1.8,Germany,[],Right Winger,,Bor. Dortmund,,,"Jul 1, 2022","Jun 30, 2027",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Alassane Pléa,167329,€5.00m,"Jun 5, 2025","Mar 10, 1993",32,1.81,France,[],Centre-Forward,,PSV Eindhoven,,,"Jul 17, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Eniss Shabani,663189,€125k,"Jun 11, 2025","May 29, 2003",22,1.8,Albania,[],Central Midfield,,Without Club,FSV Mainz 05 II,"Jul 1, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ansgar Knauff,429874,€15.00m,"Jun 5, 2025","Jan 10, 2002",23,1.8,Germany,[],Right Winger,,E. Frankfurt,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Ansgar Knauff,429874,€15.00m,"Jun 5, 2025","Jan 10, 2002",23,1.8,Germany,"['Germany', 'Ghana']",Right Winger,"                0
+0     Left Winger
+1  Right Midfield",E. Frankfurt,,,"Jul 1, 2023","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Jérôme Onguéné,272638,€250k,"Apr 4, 2025","Dec 22, 1997",27,1.86,Cameroon,[],Centre-Back,,Without Club,E. Frankfurt II,"Jan 4, 2025",,,,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Florian Wirtz,598577,€140.00m,"Jun 5, 2025","May 3, 2003",22,1.77,Germany,[],Attacking Midfield,,Liverpool,,,"Jul 1, 2025","Jun 30, 2030",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Grischa Prömel,234029,€3.00m,"Jun 5, 2025","Jan 9, 1995",30,1.84,Germany,[],Central Midfield,,TSG Hoffenheim,,,"Jul 1, 2022","Jun 30, 2026",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
+Leroy Sané,192565,€32.00m,"Jun 5, 2025","Jan 11, 1996",29,1.83,Germany,[],Right Winger,,Galatasaray,,,"Jul 1, 2025","Jun 30, 2028",,"Empty DataFrame
+Columns: [Season, Date, Left, Joined, MV, Fee]
+Index: []",transfermarkt
