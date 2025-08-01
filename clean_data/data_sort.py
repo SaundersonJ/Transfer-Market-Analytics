@@ -29,6 +29,7 @@ def ConvertPrice(dataframe, outfile):
 merged = pd.read_csv("merged_players.csv")
 columns_to_remove = ["name", "Citizenship", "Contract expiration", "DOB", "Height (m)", "ID", "Joined", "Last club", "Market value history", "Nationality", "Other positions", "Position", "Since", "Team", "Transfer history", "Value last updated", "assists", "games", "goals", "id", "key_passes", "npg", "npxG", "position", "red_cards", "shots", "source", "team", "team_title", "xGBuildup", "xGChain", "yellow_cards"]
 
+#print(merged)
 merged_text_outfile = open("merged_format_final.txt", 'w')
 ConvertPrice(RemoveColumsNaN(merged, columns_to_remove).astype(str).values.tolist(), merged_text_outfile)
 merged_text_outfile.close()
