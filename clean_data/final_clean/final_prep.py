@@ -1,3 +1,6 @@
+#Joseph Saunderson
+#This file creates price ranges and averages each one and assigns that as the class label for each record
+
 import numpy as np
 
 
