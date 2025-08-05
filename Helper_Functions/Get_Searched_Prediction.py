@@ -168,8 +168,8 @@ def main():
         return
 
     # Printing results
-    print(f"\nThis is the Label: {label.strip()}")
-    print(f"This is the Centroid {centroid} at line {line_num} in the file {centroids_file}")
+    # print(f"\nThis is the Label: {label.strip()}")
+    # print(f"This is the Centroid {centroid} at line {line_num} in the file {centroids_file}")
     print(f"The price prediction is... €{low}M - €{high}M")
 
     # Saving results to file
