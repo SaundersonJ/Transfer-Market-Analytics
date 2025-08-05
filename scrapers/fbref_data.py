@@ -1,3 +1,12 @@
+"""
+scraper_fbref.py
+
+This program defines a class to scrape player, team, and schedule data from FBref using the soccerdata library.
+The data is returned as pandas DataFrames with source identifiers included.
+
+Author: Marcos Wofford
+"""
+
 import os
 from soccerdata import FBref
 
