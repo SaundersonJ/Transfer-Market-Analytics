@@ -40,8 +40,13 @@ def Get_Predicted_Range(centroids_file, centroid_labels_file, ranges, player_dic
     # Features used in clustering (must match centroid structure)
     featureList = ['Age', 'time', 'xA', 'xG']
 
-    # Convert selected player features to float
-    playerFeatures = [float(player_dict[word]) for word in featureList]
+    try:
+
+        # Convert selected player features to float
+        playerFeatures = [float(player_dict[word]) for word in featureList]
+    except:
+        print("The player's data is insufficient for prediction")
+        return None
 
     with open(centroids_file, 'r') as f:
         centroid_vector_list = []
@@ -64,8 +69,11 @@ def Get_Predicted_Range(centroids_file, centroid_labels_file, ranges, player_dic
             with open(ranges, 'r') as r:
                 rangeList = r.readlines()
                 for item in rangeList:
-                    if label[0:5] == item[0:5]:
-                        rawRange = item.split()
+                    items = item.split()
+                    if float(items[0]) < float(label) <float(items[1]):
+                        rawRange = items
+                    #if label[0:5] == item[0:5]:
+                        #rawRange = item.split()
 
         # Extracting and scaling lower range
         rawRangeLower = rawRange[0]
@@ -118,7 +126,7 @@ def main():
 
     # Prompting user for player database file
     default_db_file = 'merged_players.csv'
-    db_file = input(f"Enter the player database filename [Demo is {default_db_file}]: ").strip()
+    db_file = default_db_file
     if not db_file:
         db_file = default_db_file
     if not os.path.exists(db_file):
@@ -133,27 +141,31 @@ def main():
         return
 
     # Prompting user for necessary model files
-    default_centroids = "centroids95_50.txt"
-    default_labels = "cluster_labels_95_50.txt"
+    default_centroids = "centroids31_65.txt"
+    default_labels = "cluster_labels_31_65.txt"
     default_ranges = "ranges.txt"
 
-    centroids_file = input(f"Enter centroids file [Demo is {default_centroids}]: ").strip() or default_centroids
-    labels_file = input(f"Enter centroid labels file [Demo is {default_labels}]: ").strip() or default_labels
-    ranges_file = input(f"Enter ranges file [Demo is {default_ranges}]: ").strip() or default_ranges
+    centroids_file = default_centroids
+    labels_file = default_labels
+    ranges_file = default_ranges
 
     # Making sure files exist
     for file in [centroids_file, labels_file, ranges_file]:
         if not os.path.exists(file):
             print(f" Required file not found: {file}")
             return
+    try:
 
-    # Predicting price range
-    centroid, line_num, label, low, high = Get_Predicted_Range(
-        centroids_file,
-        labels_file,
-        ranges_file,
-        player_row
-    )
+        # Predicting price range
+        centroid, line_num, label, low, high = Get_Predicted_Range(
+            centroids_file,
+            labels_file,
+            ranges_file,
+            player_row
+        )
+    except:
+        print("Ending program now, please try another player")
+        return
 
     # Printing results
     print(f"\nThis is the Label: {label.strip()}")
