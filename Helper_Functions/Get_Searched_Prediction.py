@@ -1,11 +1,24 @@
+"""
+Transfer Price Prediction Tool
+
+This script takes a player name as input and predicts their transfer price range using
+KMeans cluster centroids and a labeled range file. It compares the player's
+stats with centroids using Euclidean distance to find the closest cluster, then outputs
+a predicted price range.
+
+Requirements:
+- Player data must be provided from a CSV file 
+- Centroids and label files must be precomputed (from kmeans.py output)
+
+Authors: Logan Seitz, Marcos Wofford, Joseph Saunderson
+"""
+
 import csv
+import os
 
 def find_player_row(database_file, player_name):
-    """This function returns a player and their data as a dictionary
-    Arguments:
-    database_file -- (str) a file name of a file containing all relavent player infortmation from understat and transfermrtkt
-    player_name -- (str) a name that is to be searched by the user"""
-    with open(database_file,'r') as f:
+    """Returns the dictionary of the player row if a matching name is found."""
+    with open(database_file, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             if row['name'] == player_name:
@@ -13,91 +26,141 @@ def find_player_row(database_file, player_name):
     return None
 
 def euclidean_distance(point1, point2):
-
+    """Computes the Euclidean distance between two vectors."""
     distance = 0
     for p1, p2 in zip(point1, point2):
         distance += (p1 - p2) ** 2
     return distance ** 0.5
 
 def Get_Predicted_Range(centroids_file, centroid_labels_file, ranges, player_dict):
-    """This function takes the centroid file name and the 
-    dictionary from find_player_row and finds the shortest euclidean distance
-    to return the prediction string formatted
-    Arguments:
-    centroids_file -- (str) the name of the centroid file output from kmeans.py
-    player_dict -- (dict) player dictionary output from find_player_row() """
-
-#the feature list is currently a hard coded list of keys as strings 
-#to determine what is needed for comparison with centroids
-#refer to kmeans implementation
-                    
+    """
+    Given a player's feature dictionary, compares it to the centroids,
+    finds the closest one, and returns the price range mapped to that cluster.
+    """
+    # Features used in clustering (must match centroid structure)
     featureList = ['Age', 'time', 'xA', 'xG']
-# featureList copied from RemoveColumsNaN() in clean_data/old_csvs/data_sort.py new_order variable
-    playerFeatures = []
-    for word in featureList:
-        playerFeatures.append(float(player_dict[word]))
-    # print(playerFeatures)
-    with open(centroids_file,'r') as f:
+
+    # Convert selected player features to float
+    playerFeatures = [float(player_dict[word]) for word in featureList]
+
+    with open(centroids_file, 'r') as f:
         centroid_vector_list = []
-        distance_list =[]
+        distance_list = []
         for line in f.readlines():
             centroid_vector = [float(x) for x in line.split()]
             distance = euclidean_distance(centroid_vector, playerFeatures)
             centroid_vector_list.append(centroid_vector)
             distance_list.append(distance)
 
-        #centroidIndex should tell which line the selected centroid came from
-        #this will be used to find the string that represents the output string
-        #from a seperate file represented by centroid_price_ranges
+        # Find index of closest centroid
         min_distance = min(distance_list)
         CentroidIndex = distance_list.index(min_distance)
         CentroidFileLine = CentroidIndex + 1
 
-        # perhaps we could do 
-        with open(centroid_labels_file,'r') as clf:
+        # Get label of the matched centroid
+        with open(centroid_labels_file, 'r') as clf:
             labelList = clf.readlines()
-            label = labelList[CentroidIndex] #single value that represents range
+            label = labelList[CentroidIndex]
             with open(ranges, 'r') as r:
                 rangeList = r.readlines()
                 for item in rangeList:
                     if label[0:5] == item[0:5]:
                         rawRange = item.split()
-            
-            rawRangeLower = rawRange[0]
-            rawRangeUpper = rawRange[1]
-            rangeLower = float(rawRangeLower[0:4]) * 1 #** int(rawRangeLower[-1])
-            if rawRangeLower[-1] == 5:
-                rangeLower*=0.1
-            elif rawRangeLower[-1] == 7:
-                rangeLower*=10
-            elif rawRangeLower[-1] == 8:
-                rangeLower*=100
-            rangeUpper = float(rawRangeUpper[0:4]) * 1 #** int(rawRangeUpper[-1])
-            if rawRangeUpper[-1] == 5:
-                rangeUpper*=0.1
-            elif rawRangeUpper[-1] == 7:
-                rangeUpper*=10
-            elif rawRangeUpper[-1] == 8:
-                rangeUpper*=100
-            
-        #      
-        #    cleanRange = f'Price prediction is €{rangeLower)}M - {rangeUpper}M'
-        #    return cleanRange
 
-        
+        # Extracting and scaling lower range
+        rawRangeLower = rawRange[0]
+        rangeLower = float(rawRangeLower[0:4])
+        if rawRangeLower[-1] == '5':
+            rangeLower *= 0.1
+        elif rawRangeLower[-1] == '7':
+            rangeLower *= 10
+        elif rawRangeLower[-1] == '8':
+            rangeLower *= 100
+
+        # Extracting and scaling upper range
+        rawRangeUpper = rawRange[1]
+        rangeUpper = float(rawRangeUpper[0:4])
+        if rawRangeUpper[-1] == '5':
+            rangeUpper *= 0.1
+        elif rawRangeUpper[-1] == '7':
+            rangeUpper *= 10
+        elif rawRangeUpper[-1] == '8':
+            rangeUpper *= 100
+
+        # Returning all relevant prediction data
         closest_centroid = centroid_vector_list[CentroidIndex]
-        # print(f'closest centroid is: {closest_centroid}\n its index is {CentroidIndex}\n its line number is {CentroidFileLine}\n its label:{label}\n')
-        # return pricePred
         return closest_centroid, CentroidFileLine, label, rangeLower, rangeUpper
 
+def save_prediction_to_txt(player_name, player_row, label, centroid, line_number, lower, upper):
+    """Saves player stats and predicted price range to a formatted .txt file."""
+    filename = f"{player_name.replace(' ', '_')}_prediction.txt"
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(f"Player Profile {player_name}\n")
+        f.write("="*40 + "\n\n")
+        
+        f.write("Player Stats:\n")
+        for k, v in player_row.items():
+            if v.strip(): 
+                f.write(f"{k}: {v}\n")
+
+        f.write(f"\n===Transfer Price Prediction for {player_name}\n====")
+        f.write(f"Closest Centroid: {centroid}\n")
+        f.write(f"Centroid Line Number: {line_number}\n")
+        f.write(f"Cluster Label: {label.strip()}\n")
+        f.write(f"Predicted Price Range: €{lower}M - €{upper}M\n")
+    
+    print(f"\n Prediction saved to '{filename}'")
+
 def main():
-    filename = 'merged_players.csv' #accquire dynamically in future!
-    searchedPlayer = input("Enter a player name to predict their transfer price: ")
-    playerName = searchedPlayer
-    player_row = find_player_row(filename,playerName)
-    print(f'The selected players full profile:\n{player_row}\n')
-    chosen_centroid, centroid_lineNumber, label, rangeLower, rangeUpper = Get_Predicted_Range("centroids95_50.txt", 'cluster_labels_95_50.txt', 'ranges.txt', player_row)
-    print(f'This is the Label: {label}\nThis is the Centroid{chosen_centroid} at line {centroid_lineNumber} in the file {filename}\n')
-    print(f'The price prediction is... €{rangeLower}M - {rangeUpper}M')
+    """Main runner for predicting transfer price range."""
+    
+    print("=== Transfer Price Prediction Tool ===\n")
+
+    # Prompting user for player database file
+    default_db_file = 'merged_players.csv'
+    db_file = input(f"Enter the player database filename [Demo is {default_db_file}]: ").strip()
+    if not db_file:
+        db_file = default_db_file
+    if not os.path.exists(db_file):
+        print(f" File not found: {db_file}")
+        return
+
+    # Prompting user for player name
+    searched_player = input("Enter a player name to predict their transfer price: ").strip()
+    player_row = find_player_row(db_file, searched_player)
+    if player_row is None:
+        print(f" Player '{searched_player}' not found in {db_file}")
+        return
+
+    # Prompting user for necessary model files
+    default_centroids = "centroids95_50.txt"
+    default_labels = "cluster_labels_95_50.txt"
+    default_ranges = "ranges.txt"
+
+    centroids_file = input(f"Enter centroids file [Demo is {default_centroids}]: ").strip() or default_centroids
+    labels_file = input(f"Enter centroid labels file [Demo is {default_labels}]: ").strip() or default_labels
+    ranges_file = input(f"Enter ranges file [Demo is {default_ranges}]: ").strip() or default_ranges
+
+    # Making sure files exist
+    for file in [centroids_file, labels_file, ranges_file]:
+        if not os.path.exists(file):
+            print(f" Required file not found: {file}")
+            return
+
+    # Predicting price range
+    centroid, line_num, label, low, high = Get_Predicted_Range(
+        centroids_file,
+        labels_file,
+        ranges_file,
+        player_row
+    )
+
+    # Printing results
+    print(f"\nThis is the Label: {label.strip()}")
+    print(f"This is the Centroid {centroid} at line {line_num} in the file {centroids_file}")
+    print(f"The price prediction is... €{low}M - €{high}M")
+
+    # Saving results to file
+    save_prediction_to_txt(searched_player, player_row, label, centroid, line_num, low, high)
 
 main()
