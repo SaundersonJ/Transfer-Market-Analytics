@@ -19,7 +19,7 @@ def euclidean_distance(point1, point2):
         distance += (p1 - p2) ** 2
     return distance ** 0.5
 
-def Get_Predicted_Range(centroids_file, centroid_labels_file, player_dict):
+def Get_Predicted_Range(centroids_file, centroid_labels_file, ranges, player_dict):
     """This function takes the centroid file name and the 
     dictionary from find_player_row and finds the shortest euclidean distance
     to return the prediction string formatted
@@ -56,17 +56,39 @@ def Get_Predicted_Range(centroids_file, centroid_labels_file, player_dict):
         # perhaps we could do 
         with open(centroid_labels_file,'r') as clf:
             labelList = clf.readlines()
-            label = labelList[CentroidIndex]
-        #    rawRange = labelList[CentroidIndex].split()
+            label = labelList[CentroidIndex] #single value that represents range
+            with open(ranges, 'r') as r:
+                rangeList = r.readlines()
+                for item in rangeList:
+                    if label[0:5] == item[0:5]:
+                        rawRange = item.split()
+            
+            rawRangeLower = rawRange[0]
+            rawRangeUpper = rawRange[1]
+            rangeLower = float(rawRangeLower[0:4]) * 1 #** int(rawRangeLower[-1])
+            if rawRangeLower[-1] == 5:
+                rangeLower*=0.1
+            elif rawRangeLower[-1] == 7:
+                rangeLower*=10
+            elif rawRangeLower[-1] == 8:
+                rangeLower*=100
+            rangeUpper = float(rawRangeUpper[0:4]) * 1 #** int(rawRangeUpper[-1])
+            if rawRangeUpper[-1] == 5:
+                rangeUpper*=0.1
+            elif rawRangeUpper[-1] == 7:
+                rangeUpper*=10
+            elif rawRangeUpper[-1] == 8:
+                rangeUpper*=100
+            
         #      
-        #    cleanRange = f'Price prediction is €{rawRange[0]}M - {rawRange[1]}M'
+        #    cleanRange = f'Price prediction is €{rangeLower)}M - {rangeUpper}M'
         #    return cleanRange
 
         
         closest_centroid = centroid_vector_list[CentroidIndex]
         # print(f'closest centroid is: {closest_centroid}\n its index is {CentroidIndex}\n its line number is {CentroidFileLine}\n its label:{label}\n')
         # return pricePred
-        return closest_centroid, CentroidFileLine, label
+        return closest_centroid, CentroidFileLine, label, rangeLower, rangeUpper
 
 def main():
     filename = 'merged_players.csv' #accquire dynamically in future!
@@ -74,8 +96,8 @@ def main():
     playerName = searchedPlayer
     player_row = find_player_row(filename,playerName)
     print(f'The selected players full profile:\n{player_row}\n')
-    chosen_centroid, centroid_lineNumber, label = Get_Predicted_Range("centroids95_50.txt", 'cluster_labels_95_50.txt', player_row)
-    print(f'This is the Label: {label}\nThis is the Centroid{chosen_centroid} at line {centroid_lineNumber} in the file {filename}')
+    chosen_centroid, centroid_lineNumber, label, rangeLower, rangeUpper = Get_Predicted_Range("centroids95_50.txt", 'cluster_labels_95_50.txt', 'ranges.txt', player_row)
+    print(f'This is the Label: {label}\nThis is the Centroid{chosen_centroid} at line {centroid_lineNumber} in the file {filename}\n')
+    print(f'The price prediction is... €{rangeLower}M - {rangeUpper}M')
 
 main()
-
