@@ -1,3 +1,14 @@
+"""
+scraper_understat.py
+
+This program defines a class for scraping team and player xG/xA data from Understat using the ScraperFC library.
+It supports scraping specific leagues and seasons, returning structured player-level data in a pandas DataFrame.
+
+Author: Marcos Wofford
+"""
+
+
+
 import os
 import pandas as pd
 from ScraperFC import Understat
@@ -15,7 +26,7 @@ class UnderstatDataScraper:
 
     def __init__(self):
         """
-        Initialize the UnderstatDataScraper with placeholders for league and season.
+        Initializing the UnderstatDataScraper with placeholders for league and season.
         """
         self.league = None    
         self.season = None   
@@ -46,8 +57,7 @@ class UnderstatDataScraper:
     def extract_players_data(self, all_teams_data):
         """
         Function to pull out the player-level data from all the team data.
-        Returns:
-        - A single pandas DataFrame containing all player data, with team info.
+        Returns: A single pandas DataFrame containing all player data, with team info.
         """
         player_dfs = []
 
@@ -59,7 +69,7 @@ class UnderstatDataScraper:
 
         if player_dfs:
             return pd.concat(player_dfs, ignore_index=True)
-        # return empty DataFrame if nothing scraped
+        # returning empty DataFrame if nothing scraped
         return pd.DataFrame()  
 
     def scrape_players(self):
@@ -69,8 +79,7 @@ class UnderstatDataScraper:
         - Get all teams' data
         - Extract player data
 
-        Returns:
-        - pandas DataFrame with player-level stats across all teams
+        Returns: pandas DataFrame with player-level stats across all teams
         """
         self.initialize_scraper()
         all_teams_data = self.scrape_all_teams_data()
