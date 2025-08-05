@@ -10,11 +10,12 @@ print(f'min: {np.min(prices)}')
 print(f'max: {np.max(prices)}')
 print()
 # Generate evenly spaced points
-points = np.linspace(np.min(prices), np.max(prices), 30 + 1)
+points = np.linspace(np.min(prices), np.max(prices), 60 + 1)
 
 # Create the ranges
 ranges = []
-for i in range(30):
+#changed to range 60
+for i in range(60):
     ranges.append((points[i], points[i+1]))
 
 print(ranges)
@@ -25,3 +26,5 @@ for i in range(len(prices)):
             data[i,-1] = int((lower + upper) / 2)
             
 np.savetxt('merged_players_final.txt', data, fmt='%d')
+ranges_numpy = np.array(ranges)
+np.savetxt('ranges.txt', ranges_numpy)
