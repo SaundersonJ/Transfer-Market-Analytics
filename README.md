@@ -9,23 +9,52 @@ Dependencies:
 Libraries: 
 Numpy (data structures, and numerical operations) 
 Pandas (data manipulation, analysis, and cleaning) 
-sci-py (builds onto numpy with statistical testing, including Poisson distribution) 
-scikit-learn (machine learning library for regression, classification, clustering, and model evaluation.) 
-Soccerdata (Scrapes and formats soccer data from multiple sources) 
-Statsbombpy (Official Python client for StatsBomb’s open data API) 
-Mplsoccer (Visualization library for plotting soccer-specific graphics (pitches, pass maps, heatmaps, radar charts). 
-ScraperFC (Scraper framework to pull football data from public websites) 
-socceraction (mplements advanced soccer analytics frameworks like VAEP (Valuing Actions by Estimating Probabilities) and xT (Expected Threat).) 
-soccer_xg (Toolkit for building expected goals (xG) models from event data)  
-Kloppy(Normalizes and parses event and tracking data from multiple providers into a standard format.)  
-Databallpy (Library for syncing tracking and event data into unified match timelines.) 
-Pytorch  (deeplearning/neural nets framework) 
+Soccerdata (Scrapes and formats soccer data from Fbref) 
+ScraperFC (Scraper framework to pull football data from Transfermarkt and Understat) 
 
-Datasets: Statsbomb, fbRef, Transfermarkt, understat, fotmod, whoScored 
+
+Datasets: fbRef, Transfermarkt, understat
+
 
 
 # Explanation of how to run project
 
+
+## Step 1: Scraping the Data
+
+
+For the following files:  
+
+- `runScrapers.py` : The main script that coordinates scraping and merging  
+- `scraper_understat.py`  : Contains the class for scraping Understat data  
+- `scraper_transfermarkt.py` : Contains the class for scraping Transfermarkt data  
+- `fbref_data.py`  : Contains the class for scraping FBref data
+- `merge_player_data.py`  : Handles the logic for merging two scraped CSVs  
+
+These programs work together to scrape football player and team data from three public sources: **Transfermarkt**, **Understat**, and **FBref**, and then merge the results into a single dataset. The scraping logic is implemented using the **ScraperFC** and **SoccerData** Python libraries.
+
+# runScrapers.py-merge_player_data.py
+
+1. Before running the scrapers, install the ScraperFC and SoccerData libraries using pip.
+   
+3. To run the scraping process, execute the `runScrapers.py` file. This script provides prompts where you can choose which sources to scrape, specify the league and season, and merge output files.
+   
+5. Each prompt in `runScrapers.py` calls the respective scraper class:  
+   - FBref prompts call `FBrefDataScraper` from `fbref_data.py`  
+   - Transfermarkt prompts call `TransfermarktDataScraper` from `scraper_transfermarkt.py`  
+   - Understat prompts call `UnderstatDataScraper` from `scraper_understat.py`
+     
+6. You can run one, two, or all three scrapers. For each source, you will be asked to enter the correct league and season format. After scraping, you will also have the option to merge two CSV files from the output directory.
+   
+7. The merge in `runScrapers.py` calls the `interactive_merge()` function from `merge_player_data.py`, which handles combining the two selected CSV files and formatting the output.
+   
+8. After merging, `interactive_merge()` calls cleaning function `clean_and_format_merged_csv()` from `data_sort.py`. This step standardizes the merged data and prepares it for the implemented prediction algorithm.
+    
+9. All CSVs and cleaned TXT files are automatically saved to the `data` folder. Filenames include the source, league, and season.
+
+   
+   
+## Step 2: Cleaning the Data and Implementing Prediction Algorithm 
 
 # data_sort.py-reassign_labels.py
 1. data_sort.py runs and outputs merged_players.txt.
