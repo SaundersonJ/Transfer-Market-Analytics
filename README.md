@@ -87,4 +87,26 @@ To run the bash files in the command: split.bash and parallelize.bash, you need 
 
 8. centroids31_65.txt and cluster_labels_ranges_31_65.txt are then used for classifying user input dynamically when the main program runs. These steps are not repeated each time the user interacts with the program. They are performed once to generate the centroids and cluster label ranges that will be used for classification. These steps can be repeated to update the classification logic using different parameters, but the scripts would need to be modified to accept any input files, rather than the specific ones used in our current run. You can use the files provided mentioned in the above steps. 
 
+## Step 3: User Interface to Request Price Prediction
+
+# Get_Searched_Prediction.py
+
+**Prerequisites:**  
+- `merged_players.csv` (or your updated player database)  
+- Centroid file (e.g. `centroids31_65.txt`)  
+- Cluster labels file (e.g. `cluster_labels_31_65.txt`)  
+- Ranges file (`ranges.txt`)
+
+1. **Usage**  
+   Simply run:
+   ```bash
+   python Get_Searched_Prediction.py
+
+1. running the program on the user end is fairly straight foreward and simple. There are no direct third-party dependencies for this part of the program. This part of the program interfaces with the other pieces through files that were generated. Simply run 'python Get_Searched_Prediction.py', and follow the prompts.
+   
+Note: (you can reference the merged_players.csv for searchable players the program can access)
+
+2. In order to update the database of players or centroids being utilized to make predictions, you can simply change the filenames being assigned to the variables "default_db_file, default_centroids, default_labels, and default_ranges" in the main function definition. Ensure the program has access to these files. The program needs these files to function properly. the intended defaults at this time are included in the Helper_Functions file along with the Get_Searched_Prediction.py file.
+   
+3. Each of these files comes from previous steps in the readme and can be updated in the future for increased accuracy, greater generalization, and a larger database to search from.
 
