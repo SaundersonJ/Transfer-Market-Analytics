@@ -43,7 +43,7 @@ These programs work together to scrape football player and team data from three 
    - FBref prompts call `FBrefDataScraper` from `fbref_data.py`  
    - Transfermarkt prompts call `TransfermarktDataScraper` from `scraper_transfermarkt.py`
       - Currently, `scraper_transfermarkt` will only scrape a set amount of 10 players.
-      - If you would like to scrape the full amount, you may change the `max_players` value in the `__init__` function of the `runScrapers` class (within the `runScrapers` file). 
+      - If you would like to scrape the full amount, you may change the `max_players` value to `None` in the `__init__` function of the `runScrapers` class (within the `runScrapers` file). 
    - Understat prompts call `UnderstatDataScraper` from `scraper_understat.py`
      
 6. You can run one, two, or all three scrapers. For each source, you will be asked to enter the correct league and season format. After scraping, you will also have the option to merge two CSV files from the output directory.
