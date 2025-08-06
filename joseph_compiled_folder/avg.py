@@ -13,6 +13,9 @@ for i in range(100):
 
 all_data_np = np.array(all_data)
 avg = np.mean(all_data_np)
+max_index = np.argmax(all_data_np)
+max_val = np.max(all_data_np)
+print(max_index)
+print(max_val)
 print(avg)
-print(np.max(all_data_np))
     
